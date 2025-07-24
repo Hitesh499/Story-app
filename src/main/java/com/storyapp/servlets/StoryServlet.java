@@ -1,26 +1,37 @@
 package com.storyapp.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 
-// @WebServlet("/story")
+@WebServlet("/StoryServlet")
 public class StoryServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String[] stories = {"The Lion and the Mouse", "The Tortoise and the Hare", "The Fox and the Grapes"};
-        response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
+        String title = request.getParameter("title");
+        String storyContent = "";
 
-        out.println("<html><head><title>Stories</title></head><body>");
-        out.println("<h1>Available Stories</h1><ul>");
-        for (String story : stories) {
-            out.println("<li>" + story + "</li>");
+        if (title != null) {
+            switch (title) {
+                case "The Lion and the Mouse":
+                    storyContent = "Once upon a time, a lion was sleeping when a mouse ran over his face and woke him up...";
+                    break;
+                case "The Tortoise and the Hare":
+                    storyContent = "A hare was making fun of a tortoise for being so slow. So they had a race...";
+                    break;
+                case "The Fox and the Grapes":
+                    storyContent = "A hungry fox saw some grapes hanging from a vine. He tried and tried but couldn’t reach them...";
+                    break;
+                default:
+                    storyContent = "Story not found.";
+            }
+
+            request.setAttribute("title", title);
+            request.setAttribute("content", storyContent);
+            request.getRequestDispatcher("story.jsp").forward(request, response);
+        } else {
+            response.setContentType("text/html");
+            response.getWriter().println("<html><body><h3>No story selected.</h3></body></html>");
         }
-        out.println("</ul><a href='index.jsp'>Back to Home</a>");
-        out.println("</body></html>");
     }
 }
