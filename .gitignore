@@ -1,0 +1,33 @@
+# Ignore build directories
+/target/
+*.war
+*.jar
+*.ear
+
+# Ignore IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+*.class
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Ignore Eclipse / VSCode project files
+.project
+.classpath
+.settings/
+.vscode/
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Git
+*.orig
