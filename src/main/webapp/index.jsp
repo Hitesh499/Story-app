@@ -15,9 +15,9 @@
     <br/>
 
     <ul>
-        <li><a href="story?title=The%20Lion%20and%20the%20Mouse">The Lion and the Mouse</a></li>
-        <li><a href="story?title=The%20Fox%20and%20the%20Grapes">The Fox and the Grapes</a></li>
-        <li><a href="story?title=The%20Tortoise%20and%20the%20Hare">The Tortoise and the Hare</a></li>
+        <li><a href="story?title=I%20AM%20PRINCE%20NOT%20A%20HERO">I AM PRINCE NOT A HERO</a></li>
+        <li><a href="story?title=A%20DAY%20THAT%20I%20CAN%20NEVER%FORGOT">A DAY THAT I CAN NEVER FORGOT</a></li>
+        <li><a href="story?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">THE SILENCE TO GEAR UP MY LIFE</a></li>
     </ul>
 
     <br/>
