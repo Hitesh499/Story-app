@@ -6,20 +6,36 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1.center-heading {
+            margin: 30px auto;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .search-section {
+            margin-bottom: 20px;
         }
 
         .story-list {
-            list-style-type: none; /* Removes bullets */
+            list-style-type: none;
             padding-left: 0;
+            margin: 0 auto;
+            width: 60%;
         }
 
         .story-item {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         a.story-link {
             text-decoration: none;
             font-weight: bold;
+            font-size: 18px;
             color: black;
         }
 
@@ -27,17 +43,24 @@
             color: orange;
         }
 
-        h1 {
-            margin-bottom: 20px;
+        form {
+            margin-top: 30px;
         }
 
-        .search-section {
-            margin-bottom: 20px;
+        input[type="text"] {
+            padding: 6px;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            padding: 6px 12px;
+            margin-left: 10px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Story App</h1>
+    <h1 class="center-heading">Welcome to the Story App</h1>
 
     <div class="search-section">
         <form action="story.jsp" method="get">
@@ -58,8 +81,6 @@
             <a class="story-link" href="story.jsp?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">#3 THE SILENCE TO GEAR UP MY LIFE</a>
         </li>
     </ul>
-
-    <br/>
 
     <form action="story.jsp" method="get">
         <input type="hidden" name="exit" value="true">
