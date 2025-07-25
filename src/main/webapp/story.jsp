@@ -56,8 +56,8 @@
 <%
     if (title == null || content == null) {
 %>
-    <h1>Story Not Found</h1>
-    <p>Please go back and select a valid story.</p>
+    <h1>Thank you for spending your valuable time — reading our stories</h1>
+    <p>You can close the tab.</p>
 <%
     } else {
 %>
