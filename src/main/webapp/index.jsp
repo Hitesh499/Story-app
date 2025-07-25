@@ -25,6 +25,7 @@
             font-size: 36px;
             color: #333;
             margin: 0;
+            text-align: center;
         }
 
         .search-section {
@@ -67,36 +68,46 @@
             margin-left: 10px;
             cursor: pointer;
         }
+
+        .full-page-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1 class="center-heading">Welcome to the Story App</h1>
-    </div>
+    <div class="full-page-center">
+        <div class="header">
+            <h1 class="center-heading">Welcome to the Story App</h1>
+        </div>
 
-    <div class="search-section">
+        <div class="search-section">
+            <form action="story.jsp" method="get">
+                <label for="search">Search Stories:</label>
+                <input type="text" name="title" id="search">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+        <ul class="story-list">
+            <li class="story-item">
+                <a class="story-link" href="story.jsp?title=I%20AM%20PRINCE%20NOT%20A%20HERO">1. I AM PRINCE NOT A HERO</a>
+            </li>
+            <li class="story-item">
+                <a class="story-link" href="story.jsp?title=A%20DAY%20THAT%20I%20CAN%20NEVER%20FORGOT">2. A DAY THAT I CAN NEVER FORGOT</a>
+            </li>
+            <li class="story-item">
+                <a class="story-link" href="story.jsp?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">3. THE SILENCE TO GEAR UP MY LIFE</a>
+            </li>
+        </ul>
+
         <form action="story.jsp" method="get">
-            <label for="search">Search Stories:</label>
-            <input type="text" name="title" id="search">
-            <input type="submit" value="Search">
+            <input type="hidden" name="exit" value="true">
+            <input type="submit" value="Exit">
         </form>
     </div>
-
-    <ul class="story-list">
-        <li class="story-item">
-            <a class="story-link" href="story.jsp?title=I%20AM%20PRINCE%20NOT%20A%20HERO">1. I AM PRINCE NOT A HERO</a>
-        </li>
-        <li class="story-item">
-            <a class="story-link" href="story.jsp?title=A%20DAY%20THAT%20I%20CAN%20NEVER%20FORGOT">2. A DAY THAT I CAN NEVER FORGOT</a>
-        </li>
-        <li class="story-item">
-            <a class="story-link" href="story.jsp?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">3. THE SILENCE TO GEAR UP MY LIFE</a>
-        </li>
-    </ul>
-
-    <form action="story.jsp" method="get">
-        <input type="hidden" name="exit" value="true">
-        <input type="submit" value="Exit">
-    </form>
 </body>
 </html>
