@@ -30,12 +30,12 @@
 
         .story-item {
             margin-bottom: 15px;
+            font-size: 18px;
         }
 
         a.story-link {
             text-decoration: none;
             font-weight: bold;
-            font-size: 18px;
             color: black;
         }
 
@@ -72,13 +72,13 @@
 
     <ul class="story-list">
         <li class="story-item">
-            <a class="story-link" href="story.jsp?title=I%20AM%20PRINCE%20NOT%20A%20HERO">#1 I AM PRINCE NOT A HERO</a>
+            <a class="story-link" href="story.jsp?title=I%20AM%20PRINCE%20NOT%20A%20HERO">1. I AM PRINCE NOT A HERO</a>
         </li>
         <li class="story-item">
-            <a class="story-link" href="story.jsp?title=A%20DAY%20THAT%20I%20CAN%20NEVER%20FORGOT">#2 A DAY THAT I CAN NEVER FORGOT</a>
+            <a class="story-link" href="story.jsp?title=A%20DAY%20THAT%20I%20CAN%20NEVER%20FORGOT">2. A DAY THAT I CAN NEVER FORGOT</a>
         </li>
         <li class="story-item">
-            <a class="story-link" href="story.jsp?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">#3 THE SILENCE TO GEAR UP MY LIFE</a>
+            <a class="story-link" href="story.jsp?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">3. THE SILENCE TO GEAR UP MY LIFE</a>
         </li>
     </ul>
 
