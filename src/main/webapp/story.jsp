@@ -25,6 +25,7 @@
             margin: 40px;
             background-color: #fdfdfd;
             color: #333;
+            text-align: center;
         }
 
         h1 {
@@ -37,6 +38,16 @@
             font-size: 16px;
             line-height: 1.8;
             white-space: pre-wrap;
+            text-align: left;
+            display: inline-block;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .message {
+            font-size: 18px;
+            color: #e74c3c;
+            margin-top: 50px;
         }
 
         a.back-link {
@@ -54,10 +65,14 @@
 </head>
 <body>
 <%
-    if (title == null || content == null) {
+    if (title == null) {
 %>
     <h1>Thank you for spending your valuable time — reading our stories</h1>
     <p>You can close the tab.</p>
+<%
+    } else if (content == null) {
+%>
+    <div class="message">Oops! The story you're looking for doesn't exist.</div>
 <%
     } else {
 %>
