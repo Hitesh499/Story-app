@@ -8,13 +8,23 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 100%;
         }
 
         h1.center-heading {
-            margin: 30px auto;
             font-size: 36px;
             color: #333;
+            margin: 0;
         }
 
         .search-section {
@@ -60,7 +70,9 @@
     </style>
 </head>
 <body>
-    <h1 class="center-heading">Welcome to the Story App</h1>
+    <div class="header">
+        <h1 class="center-heading">Welcome to the Story App</h1>
+    </div>
 
     <div class="search-section">
         <form action="story.jsp" method="get">
