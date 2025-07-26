@@ -91,55 +91,6 @@
     "And one day, it won't need to whisper.\n" +
     "It’ll already be you.”");
 
-episodicStories.put("💌 THE LAST LETTER FROM GRANDMA", 
-    "💌 THE LAST LETTER FROM GRANDMA\n" +
-    "________________________________________\n" +
-    "Episode-1. THE FUNERAL\n" +
-    "When Grandma Meera passed away at 87, the entire Sharma family returned to the old ancestral home in Darjeeling.\n" +
-    "The house, perched on a misty hillside, still smelled like cardamom tea and old books.\n" +
-    "Riya, her 18-year-old granddaughter, hadn’t seen Grandma in a year — not since their falling out over Riya's choice to pursue art instead of medicine.\n" +
-    "Grandma had always been loving… but strict.\n" +
-    "And now she was gone. No goodbyes. No closure.\n" +
-    "Or so Riya thought.\n" +
-    "________________________________________\n" +
-    "Episode-2. THE LETTER BOX\n" +
-    "On the third day after the funeral, while helping clean the attic, Riya found a small wooden box beneath Grandma’s sewing cabinet.\n" +
-    "The lock was rusted shut, but taped to the bottom was a note in Grandma’s spidery handwriting:\n" +
-    "\"For Riya. When you're ready to listen — truly listen.\"\n" +
-    "Inside the box:\n" +
-    "A single letter, sealed in wax with a pressed marigold on top.\n" +
-    "And beneath it, a stack of old, yellowed envelopes, each labeled with a year — from 1960 to 2024.\n" +
-    "________________________________________\n" +
-    "Episode-3. THE LAST LETTER\n" +
-    "Riya opened the letter addressed to her. It read:\n" +
-    "\"My dearest Riya,\n" +
-    "If you're reading this, it means I’m no longer there to frown at your messy sketchbooks or hide your paintbrushes.\n" +
-    "I was wrong, Riya. So wrong.\n" +
-    "I tried to mold you into someone the world would approve of. But the truth is, I was just scared. Scared that your dreams would break you like mine once broke me.\n" +
-    "Under the stairs, you’ll find a trunk. Inside it — the art I never showed anyone. Not even your mother.\n" +
-    "Your talent doesn’t skip generations. It’s been hiding in this house for decades.\n" +
-    "Now go. Create. And forgive me if you can.\n" +
-    "With all the love I never said out loud,\n" +
-    "Grandma Meera\"\n" +
-    "________________________________________\n" +
-    "Episode-4. THE SECRET TRUNK\n" +
-    "Under the wooden stairs, Riya found a dusty trunk.\n" +
-    "Inside were oil paintings, handmade sketchbooks, and even a small award certificate for a competition won in 1958.\n" +
-    "Her grandmother had been an artist — and no one knew.\n" +
-    "The same woman who told her to “focus on biology” had once painted sunsets and sorrow into canvas.\n" +
-    "Tears rolled down Riya’s cheeks.\n" +
-    "Not just for the grandmother she lost —\n" +
-    "But for the woman she had never truly known.\n" +
-    "________________________________________\n" +
-    "Episode-5. A NEW BEGINNING\n" +
-    "A few months later, Riya hosted her first gallery show in Kolkata.\n" +
-    "At the center was a piece titled \"Meera's Silence\" — a portrait of her grandmother holding a brush, but with her lips stitched shut.\n" +
-    "Beside it, framed in gold, was the last letter.\n" +
-    "Visitors cried. Some clapped.\n" +
-    "Riya smiled.\n" +
-    "Grandma was gone —\n" +
-    "but her voice was finally being heard.");
-
     String content = stories.get(title);
 %>
 <!DOCTYPE html>
