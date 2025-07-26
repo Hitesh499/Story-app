@@ -6,15 +6,13 @@
     Map<String, String> longFormStories = new LinkedHashMap<>();
     Map<String, String> episodicStories = new LinkedHashMap<>();
 
-    // ✅ Short Stories
     shortStories.put("I AM PRINCE NOT A HERO", "");
     shortStories.put("THE SILENCE TO GEAR UP MY LIFE", "");
 
-    // ✅ Long-form Stories
     longFormStories.put("A DAY THAT I CAN NEVER FORGOT", "");
     longFormStories.put("THE SWORD OF FORGOTTEN TRUTHS", "");
 
-    // ✅ Episodic Stories - currently empty
+    // episodicStories is empty for now
 %>
 
 <!DOCTYPE html>
@@ -24,39 +22,83 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #fefefe;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            text-align: center;
         }
 
         h1 {
-            text-align: center;
             color: #2c3e50;
+            margin-top: 40px;
+            font-size: 36px;
         }
 
-        .section {
-            margin-top: 50px;
+        .search-container {
+            margin-top: 10px;
+            margin-bottom: 30px;
         }
 
-        .section h2 {
-            color: #2980b9;
+        .search-container input[type="text"] {
+            padding: 6px;
+            width: 200px;
+            font-size: 14px;
+        }
+
+        .search-container button {
+            padding: 6px 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin: 30px auto;
+            max-width: 1000px;
+        }
+
+        .card {
             border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
+            padding: 20px;
+            width: 250px;
+            text-align: left;
         }
+
+        .card h2 {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .icon-box {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            border-radius: 3px;
+        }
+
+        .blue { background: linear-gradient(to right, #00C9FF, #92FE9D); }
+        .green { background: linear-gradient(to right, #A8EB12, #00B712); }
+        .orange { background: linear-gradient(to right, #FF512F, #DD2476); }
 
         ul.story-list {
             list-style-type: none;
-            padding-left: 0;
+            padding: 0;
+            margin: 0;
         }
 
         ul.story-list li {
-            margin: 10px 0;
+            margin: 8px 0;
         }
 
         ul.story-list li a {
             text-decoration: none;
             color: #34495e;
-            font-size: 18px;
+            font-size: 16px;
         }
 
         ul.story-list li a:hover {
@@ -66,37 +108,55 @@
 </head>
 <body>
 
-<h1>Welcome to the Story App</h1>
+    <h1>Welcome to the Story App</h1>
 
-<div class="section">
-    <h2>📘 Short Stories</h2>
-    <ul class="story-list">
-        <% for (String title : shortStories.keySet()) { %>
-            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
-        <% } %>
-    </ul>
-</div>
+    <div class="search-container">
+        <label for="search">Search Stories:</label>
+        <input type="text" id="search" name="search">
+        <button type="submit">Search</button>
+    </div>
 
-<div class="section">
-    <h2>📗 Long-form Stories</h2>
-    <ul class="story-list">
-        <% for (String title : longFormStories.keySet()) { %>
-            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
-        <% } %>
-    </ul>
-</div>
+    <div class="cards">
+        <!-- Short Stories -->
+        <div class="card">
+            <h2><span class="icon-box blue"></span> Short Stories</h2>
+            <ul class="story-list">
+                <% for (String title : shortStories.keySet()) { %>
+                    <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+                <% } %>
+            </ul>
+        </div>
 
-<div class="section">
-    <h2>📙 Episodic Stories</h2>
-    <ul class="story-list">
-        <% for (String title : episodicStories.keySet()) { %>
-            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
-        <% } %>
-        <% if (episodicStories.isEmpty()) { %>
-            <li><em>Coming soon...</em></li>
-        <% } %>
-    </ul>
-</div>
+        <!-- Long-form Stories -->
+        <div class="card">
+            <h2><span class="icon-box green"></span> Long-form Stories</h2>
+            <ul class="story-list">
+                <% for (String title : longFormStories.keySet()) { %>
+                    <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+                <% } %>
+            </ul>
+        </div>
+
+        <!-- Episodic Stories -->
+        <div class="card">
+            <h2><span class="icon-box orange"></span> Episodic Stories</h2>
+            <ul class="story-list">
+                <% 
+                    if (episodicStories.isEmpty()) { 
+                %>
+                    <li><em>Coming soon...</em></li>
+                <% 
+                    } else {
+                        for (String title : episodicStories.keySet()) { 
+                %>
+                    <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+                <% 
+                        }
+                    } 
+                %>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
