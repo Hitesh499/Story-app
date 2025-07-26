@@ -1,4 +1,19 @@
+<%@ page import="java.util.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    // Story categorization
+    Map<String, String> shortStories = new LinkedHashMap<>();
+    Map<String, String> longFormStories = new LinkedHashMap<>();
+    Map<String, String> episodicStories = new LinkedHashMap<>();
+
+    shortStories.put("THE SILENCE TO GEAR UP MY LIFE", "");
+    shortStories.put("I AM PRINCE NOT A HERO", "");
+
+    longFormStories.put("A DAY THAT I CAN NEVER FORGOT", "");
+
+    episodicStories.put("THE SWORD OF FORGOTTEN TRUTHS", "");
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,111 +21,76 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 150px;
-            width: 100%;
-        }
-
-        h1.center-heading {
-            font-size: 36px;
+            margin: 40px;
+            background-color: #fefefe;
             color: #333;
-            margin: 0;
+        }
+
+        h1 {
             text-align: center;
+            color: #2c3e50;
         }
 
-        .search-section {
-            margin-bottom: 20px;
+        .section {
+            margin-top: 50px;
         }
 
-        .story-list {
+        .section h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        ul.story-list {
             list-style-type: none;
             padding-left: 0;
-            margin: 0 auto;
-            width: 60%;
         }
 
-        .story-item {
-            margin-bottom: 15px;
+        ul.story-list li {
+            margin: 10px 0;
+        }
+
+        ul.story-list li a {
+            text-decoration: none;
+            color: #34495e;
             font-size: 18px;
         }
 
-        a.story-link {
-            text-decoration: none;
-            font-weight: bold;
-            color: black;
-        }
-
-        a.story-link:hover {
-            color: orange;
-        }
-
-        form {
-            margin-top: 30px;
-        }
-
-        input[type="text"] {
-            padding: 6px;
-            width: 200px;
-        }
-
-        input[type="submit"] {
-            padding: 6px 12px;
-            margin-left: 10px;
-            cursor: pointer;
-        }
-
-        .full-page-center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
+        ul.story-list li a:hover {
+            color: #e74c3c;
         }
     </style>
 </head>
 <body>
-    <div class="full-page-center">
-        <div class="header">
-            <h1 class="center-heading">Welcome to the Story App</h1>
-        </div>
 
-        <div class="search-section">
-            <form action="story.jsp" method="get">
-                <label for="search">Search Stories:</label>
-                <input type="text" name="title" id="search">
-                <input type="submit" value="Search">
-            </form>
-        </div>
+<h1>Welcome to the Story App</h1>
 
-        <ul class="story-list">
-            <li class="story-item">
-                <a class="story-link" href="story.jsp?title=I%20AM%20PRINCE%20NOT%20A%20HERO">1. I AM PRINCE NOT A HERO</a>
-            </li>
-            <li class="story-item">
-                <a class="story-link" href="story.jsp?title=A%20DAY%20THAT%20I%20CAN%20NEVER%20FORGOT">2. A DAY THAT I CAN NEVER FORGOT</a>
-            </li>
-            <li class="story-item">
-                <a class="story-link" href="story.jsp?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">3. THE SILENCE TO GEAR UP MY LIFE</a>
-            </li>
-            <li class="story-item">
-                <a class="story-link" href="story.jsp?title=THE%20SWORD%20OF%20FORGOTTEN%20TRUTHS">4. THE SWORD OF FORGOTTEN TRUTHS</a>
-            </li>
-        </ul>
+<div class="section">
+    <h2>📘 Short Stories</h2>
+    <ul class="story-list">
+        <% for (String title : shortStories.keySet()) { %>
+            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+        <% } %>
+    </ul>
+</div>
 
-        <form action="story.jsp" method="get">
-            <input type="hidden" name="exit" value="true">
-            <input type="submit" value="Exit">
-        </form>
-    </div>
+<div class="section">
+    <h2>📗 Long-form Stories</h2>
+    <ul class="story-list">
+        <% for (String title : longFormStories.keySet()) { %>
+            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+        <% } %>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>📙 Episodic Stories</h2>
+    <ul class="story-list">
+        <% for (String title : episodicStories.keySet()) { %>
+            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+        <% } %>
+    </ul>
+</div>
+
 </body>
 </html>
