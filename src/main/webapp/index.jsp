@@ -51,21 +51,6 @@
             cursor: pointer;
         }
 
-        .exit-container {
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-
-        .exit-container button {
-            background-color: #e74c3c;
-            color: white;
-            padding: 8px 20px;
-            border: none;
-            border-radius: 4px;
-            font-size: 14px;
-            cursor: pointer;
-        }
-
         .cards {
             display: flex;
             justify-content: center;
@@ -119,6 +104,29 @@
         ul.story-list li a:hover {
             color: #e74c3c;
         }
+
+        .exit-container {
+            margin-top: 60px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .exit-button {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .exit-button:hover {
+            background-color: #f0f0f0;
+        }
     </style>
 </head>
 <body>
@@ -131,13 +139,6 @@
             <label for="search">Search Stories:</label>
             <input type="text" id="search" name="title" required>
             <input type="submit" value="Search">
-        </form>
-    </div>
-
-    <!-- Exit Button -->
-    <div class="exit-container">
-        <form action="story.jsp" method="get">
-            <button type="submit">Exit</button>
         </form>
     </div>
 
@@ -181,6 +182,14 @@
                 %>
             </ul>
         </div>
+    </div>
+
+    <!-- Exit Button Below All Content -->
+    <div class="exit-container">
+        <form action="story.jsp" method="get">
+            <input type="hidden" name="exit" value="true">
+            <button type="submit" class="exit-button">Exit</button>
+        </form>
     </div>
 
 </body>
