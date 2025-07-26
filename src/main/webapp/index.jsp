@@ -102,6 +102,9 @@
             <li class="story-item">
                 <a class="story-link" href="story.jsp?title=THE%20SILENCE%20TO%20GEAR%20UP%20MY%20LIFE">3. THE SILENCE TO GEAR UP MY LIFE</a>
             </li>
+            <li class="story-item">
+                <a class="story-link" href="story.jsp?title=THE%20SWORD%20OF%20FORGOTTEN%20TRUTHS">4. THE SWORD OF FORGOTTEN TRUTHS</a>
+            </li>
         </ul>
 
         <form action="story.jsp" method="get">
