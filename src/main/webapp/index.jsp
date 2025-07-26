@@ -1,4 +1,22 @@
+<%@ page import="java.util.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    // Story categorization
+    Map<String, String> shortStories = new LinkedHashMap<>();
+    Map<String, String> longFormStories = new LinkedHashMap<>();
+    Map<String, String> episodicStories = new LinkedHashMap<>();
+
+    // ✅ Short Stories
+    shortStories.put("I AM PRINCE NOT A HERO", "");
+    shortStories.put("THE SILENCE TO GEAR UP MY LIFE", "");
+
+    // ✅ Long-form Stories
+    longFormStories.put("A DAY THAT I CAN NEVER FORGOT", "");
+    longFormStories.put("THE SWORD OF FORGOTTEN TRUTHS", "");
+
+    // ✅ Episodic Stories - currently empty
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,129 +24,79 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
+            margin: 40px;
+            background-color: #fefefe;
+            color: #333;
         }
 
         h1 {
-            color: #0A2F63;
-            margin-top: 40px;
-        }
-
-        .search-bar {
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-
-        .story-sections {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 20px;
+            text-align: center;
+            color: #2c3e50;
         }
 
         .section {
-            border-bottom: 2px solid #ddd;
-            padding: 10px;
-            width: 250px;
-            text-align: left;
+            margin-top: 50px;
         }
 
-        .section-title {
-            text-align: center;
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
+        .section h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
         }
 
-        .short-story-icon {
-            width: 16px;
-            height: 16px;
-            background: linear-gradient(to right, #00C9FF, #92FE9D);
-            display: inline-block;
-            margin-right: 8px;
+        ul.story-list {
+            list-style-type: none;
+            padding-left: 0;
         }
 
-        .long-form-icon {
-            width: 16px;
-            height: 16px;
-            background: linear-gradient(to right, #A8EB12, #00B712);
-            display: inline-block;
-            margin-right: 8px;
+        ul.story-list li {
+            margin: 10px 0;
         }
 
-        .episodic-icon {
-            width: 16px;
-            height: 16px;
-            background: linear-gradient(to right, #FF512F, #DD2476);
-            display: inline-block;
-            margin-right: 8px;
-        }
-
-        .story-list {
-            padding-left: 20px;
-        }
-
-        .story-list li {
-            margin-bottom: 6px;
-        }
-
-        a {
+        ul.story-list li a {
             text-decoration: none;
-            font-weight: normal;
-            color: #0A2F63;
+            color: #34495e;
+            font-size: 18px;
         }
 
-        a:hover {
-            text-decoration: underline;
+        ul.story-list li a:hover {
+            color: #e74c3c;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to the Story App</h1>
 
-    <div class="search-bar">
-        <label for="search">Search Stories:</label>
-        <input type="text" id="search" name="search">
-        <button type="submit">Search</button>
-    </div>
+<h1>Welcome to the Story App</h1>
 
-    <div class="story-sections">
-        <!-- Short Stories -->
-        <div class="section">
-            <div class="section-title">
-                <span class="short-story-icon"></span>
-                Short Stories
-            </div>
-            <ul class="story-list">
-                <li><a href="#">I AM PRINCE NOT A HERO</a></li>
-                <li><a href="#">THE SILENCE TO GEAR UP MY LIFE</a></li>
-            </ul>
-        </div>
+<div class="section">
+    <h2>📘 Short Stories</h2>
+    <ul class="story-list">
+        <% for (String title : shortStories.keySet()) { %>
+            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+        <% } %>
+    </ul>
+</div>
 
-        <!-- Long-form Stories -->
-        <div class="section">
-            <div class="section-title">
-                <span class="long-form-icon"></span>
-                Long-form Stories
-            </div>
-            <ul class="story-list">
-                <li><a href="#">A DAY THAT I CAN NEVER FORGOT</a></li>
-                <li><a href="#">THE SWORD OF FORGOTTEN TRUTHS</a></li>
-            </ul>
-        </div>
+<div class="section">
+    <h2>📗 Long-form Stories</h2>
+    <ul class="story-list">
+        <% for (String title : longFormStories.keySet()) { %>
+            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+        <% } %>
+    </ul>
+</div>
 
-        <!-- Episodic Stories -->
-        <div class="section">
-            <div class="section-title">
-                <span class="episodic-icon"></span>
-                Episodic Stories
-            </div>
-            <ul class="story-list">
-                <li style="color: gray;">No stories added yet</li>
-            </ul>
-        </div>
-    </div>
+<div class="section">
+    <h2>📙 Episodic Stories</h2>
+    <ul class="story-list">
+        <% for (String title : episodicStories.keySet()) { %>
+            <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+        <% } %>
+        <% if (episodicStories.isEmpty()) { %>
+            <li><em>Coming soon...</em></li>
+        <% } %>
+    </ul>
+</div>
+
 </body>
 </html>
