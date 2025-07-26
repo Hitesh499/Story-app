@@ -36,7 +36,7 @@
 
         .search-container {
             margin-top: 10px;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
 
         .search-container input[type="text"] {
@@ -45,8 +45,23 @@
             font-size: 14px;
         }
 
-        .search-container button {
+        .search-container input[type="submit"] {
             padding: 6px 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .exit-container {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .exit-container button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
             font-size: 14px;
             cursor: pointer;
         }
@@ -110,16 +125,26 @@
 
     <h1>Welcome to the Story App</h1>
 
+    <!-- Search Bar -->
     <div class="search-container">
-        <label for="search">Search Stories:</label>
-        <input type="text" id="search" name="search">
-        <button type="submit">Search</button>
+        <form action="story.jsp" method="get">
+            <label for="search">Search Stories:</label>
+            <input type="text" id="search" name="title" required>
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+    <!-- Exit Button -->
+    <div class="exit-container">
+        <form action="story.jsp" method="get">
+            <button type="submit">Exit</button>
+        </form>
     </div>
 
     <div class="cards">
         <!-- Short Stories -->
         <div class="card">
-            <h2><span class="icon-box blue"></span> Short Stories</h2>
+            <h2>📘 Short Stories</h2>
             <ul class="story-list">
                 <% for (String title : shortStories.keySet()) { %>
                     <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
@@ -129,7 +154,7 @@
 
         <!-- Long-form Stories -->
         <div class="card">
-            <h2><span class="icon-box green"></span> Long-form Stories</h2>
+            <h2>📗 Long-form Stories</h2>
             <ul class="story-list">
                 <% for (String title : longFormStories.keySet()) { %>
                     <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
@@ -139,7 +164,7 @@
 
         <!-- Episodic Stories -->
         <div class="card">
-            <h2><span class="icon-box orange"></span> Episodic Stories</h2>
+            <h2>📙 Episodic Stories</h2>
             <ul class="story-list">
                 <% 
                     if (episodicStories.isEmpty()) { 
