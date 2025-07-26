@@ -12,7 +12,7 @@
     longFormStories.put("A DAY THAT I CAN NEVER FORGOT", "");
     longFormStories.put("THE SWORD OF FORGOTTEN TRUTHS", "");
 
-    // episodicStories is empty for now
+    episodicStories.put("🕯️ WHISPERS IN THE WELL", "");
 %>
 
 <!DOCTYPE html>
@@ -74,17 +74,6 @@
             margin-bottom: 15px;
         }
 
-        .icon-box {
-            width: 15px;
-            height: 15px;
-            margin-right: 10px;
-            border-radius: 3px;
-        }
-
-        .blue { background: linear-gradient(to right, #00C9FF, #92FE9D); }
-        .green { background: linear-gradient(to right, #A8EB12, #00B712); }
-        .orange { background: linear-gradient(to right, #FF512F, #DD2476); }
-
         ul.story-list {
             list-style-type: none;
             padding: 0;
@@ -131,66 +120,66 @@
 </head>
 <body>
 
-    <h1>Welcome to the Story App</h1>
+<h1>Welcome to the Story App</h1>
 
-    <!-- Search Bar -->
-    <div class="search-container">
-        <form action="story.jsp" method="get">
-            <label for="search">Search Stories:</label>
-            <input type="text" id="search" name="title" required>
-            <input type="submit" value="Search">
-        </form>
+<!-- Search Bar -->
+<div class="search-container">
+    <form action="story.jsp" method="get">
+        <label for="search">Search Stories:</label>
+        <input type="text" id="search" name="title" required>
+        <input type="submit" value="Search">
+    </form>
+</div>
+
+<div class="cards">
+    <!-- Short Stories -->
+    <div class="card">
+        <h2>📘 Short Stories</h2>
+        <ul class="story-list">
+            <% for (String title : shortStories.keySet()) { %>
+                <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+            <% } %>
+        </ul>
     </div>
 
-    <div class="cards">
-        <!-- Short Stories -->
-        <div class="card">
-            <h2>📘 Short Stories</h2>
-            <ul class="story-list">
-                <% for (String title : shortStories.keySet()) { %>
-                    <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
-                <% } %>
-            </ul>
-        </div>
-
-        <!-- Long-form Stories -->
-        <div class="card">
-            <h2>📗 Long-form Stories</h2>
-            <ul class="story-list">
-                <% for (String title : longFormStories.keySet()) { %>
-                    <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
-                <% } %>
-            </ul>
-        </div>
-
-        <!-- Episodic Stories -->
-        <div class="card">
-            <h2>📙 Episodic Stories</h2>
-            <ul class="story-list">
-                <% 
-                    if (episodicStories.isEmpty()) { 
-                %>
-                    <li><em>Coming soon...</em></li>
-                <% 
-                    } else {
-                        for (String title : episodicStories.keySet()) { 
-                %>
-                    <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
-                <% 
-                        }
-                    } 
-                %>
-            </ul>
-        </div>
+    <!-- Long-form Stories -->
+    <div class="card">
+        <h2>📗 Long-form Stories</h2>
+        <ul class="story-list">
+            <% for (String title : longFormStories.keySet()) { %>
+                <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+            <% } %>
+        </ul>
     </div>
 
-    <!-- Exit Button Below All Content -->
-    <div class="exit-container">
-        <form action="story.jsp" method="get">
-            <input type="hidden" name="exit" value="true">
-            <button type="submit" class="exit-button">Exit</button>
-        </form>
+    <!-- Episodic Stories -->
+    <div class="card">
+        <h2>📙 Episodic Stories</h2>
+        <ul class="story-list">
+            <% 
+                if (episodicStories.isEmpty()) { 
+            %>
+                <li><em>Coming soon...</em></li>
+            <% 
+                } else {
+                    for (String title : episodicStories.keySet()) { 
+            %>
+                <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
+            <% 
+                    }
+                } 
+            %>
+        </ul>
     </div>
+</div>
+
+<!-- Exit Button -->
+<div class="exit-container">
+    <form action="story.jsp" method="get">
+        <input type="hidden" name="exit" value="true">
+        <button type="submit" class="exit-button">Exit</button>
+    </form>
+</div>
 
 </body>
 </html>

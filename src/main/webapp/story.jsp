@@ -16,6 +16,81 @@
 
     stories.put("THE SWORD OF FORGOTTEN TRUTHS", 
     "In the kingdom of Eldarion, stories were no longer trusted. For centuries, the King’s decree had forbidden the telling of tales, especially those of the ancient world — for within those forgotten fables, truths more powerful than any army lay sleeping.\n\nEira, a blacksmith’s orphan daughter, had always felt different. While others feared the past, she was drawn to it. Every crack in stone walls, every symbol carved on rusted gates, felt like a whisper calling her name.\n\nOne stormy evening, while seeking shelter in the forest ruins of Darnmoor, she fell into a hidden chamber beneath the earth. There, resting atop a pedestal of stone, was a sword — unlike any she’d ever seen. Its blade shimmered not with steel but with strands of memory — shifting images dancing across its surface: battles, betrayals, and voices crying truths long buried.\n\nThe moment Eira touched the hilt, visions flooded her mind — not just of wars fought, but of the true history of Eldarion. She saw how the kingdom had been built on a lie, how knowledge had been erased, and how the sword had once belonged to the Truthkeeper, a warrior-scholar who vanished when truth was outlawed.\n\nBut Eira was no warrior.\n\nOr so she thought.\n\nChased by the King’s Truth Hunters — silent assassins trained to kill anyone who dared awaken the past — Eira fled. Along the way, she met others: a blind librarian who had memorized forbidden texts, a prince hiding in plain sight, and a beast who could speak only in forgotten riddles.\n\nWith each ally, the sword grew brighter. It fed not on violence but on belief — belief in truth, no matter how painful.\n\nIn the final confrontation, high atop the cliffs of Solmaron, Eira faced the King. But she did not strike him. Instead, she spoke. And the sword, recognizing her courage, unleashed its true power: it revealed the truth to all — not with blood, but with memory.\n\nThe people wept. The King fell. Not dead — but defeated by the truth.\n\nThe laws changed.\n\nStories returned.\n\nAnd the sword?\n\nIt vanished — until the next truth was forgotten.");
+
+    stories.put("🕯️ WHISPERS IN THE WELL", 
+    "🕯️ WHISPERS IN THE WELL\n" +
+    "________________________________________\n" +
+    "Episode-1. The Village With No Echo\n" +
+    "Bhairavpur wasn’t on Google Maps.\n" +
+    "A remote village in the eastern hills, it had no phone signals, no schools, and just one rule:\n" +
+    "“Never speak near the well after dark.”\n" +
+    "Aarav, a skeptical journalist from Delhi, arrived after receiving an anonymous letter that read:\n" +
+    "“They say the well is haunted. But no one’s gone missing... not recently.”\n" +
+    "His editor wanted superstition debunked.\n" +
+    "Aarav just wanted a front-page story.\n" +
+    "________________________________________\n" +
+    "Episode-2. The Woman Who Knew Too Much\n" +
+    "The villagers were quiet. Shifty-eyed. Most refused to talk.\n" +
+    "Except for Meera, the daughter of the village priest, who whispered:\n" +
+    "“The well remembers. It doesn't kill. It copies.”\n" +
+    "She claimed her mother had disappeared years ago — but was seen again, standing silently by the well days later.\n" +
+    "Except... she wouldn’t speak. Wouldn’t eat.\n" +
+    "She only whispered.\n" +
+    "That “copy” of her mother died days later, but not before whispering one sentence on her final breath:\n" +
+    "“I’m still down there.”\n" +
+    "________________________________________\n" +
+    "Episode-3. The First Whisper\n" +
+    "That night, Aarav couldn’t sleep.\n" +
+    "The wind howled. The well stood at the center of the village like a black mouth.\n" +
+    "Drawn to it by something he couldn’t explain, he stepped closer.\n" +
+    "Then he heard it — his own voice, whispering from the bottom:\n" +
+    "“Aarav... come see what you forgot...”\n" +
+    "He froze. The voice was broken. Familiar.\n" +
+    "And then, louder:\n" +
+    "“You left him. You left your brother in the fire.”\n" +
+    "His breath caught.\n" +
+    "No one knew about that fire. No one.\n" +
+    "________________________________________\n" +
+    "Episode-4. The Descent\n" +
+    "The next day, Aarav confronted Meera.\n" +
+    "She told him, shaking:\n" +
+    "“The well doesn’t show you ghosts. It shows you guilt.”\n" +
+    "Those who listen too long eventually try to go down.\n" +
+    "And those who go down?\n" +
+    "“They either come back... wrong.\n" +
+    "Or don’t come back at all.”\n" +
+    "That night, Aarav snapped a rope to the pulley. Torch in hand, he climbed in.\n" +
+    "________________________________________\n" +
+    "Episode-5. Below\n" +
+    "Inside the well was a tunnel — slick, cold, alive.\n" +
+    "His torch flickered. His voice echoed in whispers, but with a delay — as if something were repeating his words seconds after he spoke them.\n" +
+    "He reached a chamber.\n" +
+    "At the center: a pool of still, black water.\n" +
+    "On the surface: his reflection. But not exactly.\n" +
+    "The copy smiled wider. Blinked slower.\n" +
+    "Then whispered:\n" +
+    "“You can go back. But only one of us leaves.”\n" +
+    "________________________________________\n" +
+    "Episode-6. What Came Back\n" +
+    "The next morning, Aarav returned.\n" +
+    "The villagers found him standing silently near the well.\n" +
+    "He was pale. Calm. Smiling strangely.\n" +
+    "He didn’t speak for two days.\n" +
+    "Then, during a gathering, someone joked:\n" +
+    "“Did the ghosts in the well scare you?”\n" +
+    "Aarav turned, slowly. His smile never faded.\n" +
+    "“No,” he whispered.\n" +
+    "“I’m just waiting. Waiting for you to listen.”\n" +
+    "That night, the first villager disappeared in over a decade.\n" +
+    "________________________________________\n" +
+    "Episode-7. The Ending That Loops\n" +
+    "No one remembers who sent the letter to Aarav.\n" +
+    "But new letters have started arriving in nearby towns.\n" +
+    "All handwritten. All ending the same way:\n" +
+    "“The well doesn't kill. It copies.\n" +
+    "And one day, it won't need to whisper.\n" +
+    "It’ll already be you.”");
+
     String content = stories.get(title);
 %>
 <!DOCTYPE html>
