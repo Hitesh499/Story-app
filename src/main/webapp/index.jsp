@@ -1,4 +1,4 @@
- <%@ page import="java.util.*" %>
+<%@ page import="java.util.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     // Story categorization
@@ -21,112 +21,14 @@
 <html>
 <head>
     <title>Story App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fff;
-            text-align: center;
-        }
-
-        h1 {
-            color: #2c3e50;
-            margin-top: 40px;
-            font-size: 36px;
-        }
-
-        .search-container {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .search-container input[type="text"] {
-            padding: 6px;
-            width: 200px;
-            font-size: 14px;
-        }
-
-        .search-container input[type="submit"] {
-            padding: 6px 10px;
-            font-size: 14px;
-            cursor: pointer;
-        }
-
-        .cards {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            flex-wrap: wrap;
-            margin: 30px auto;
-            max-width: 1000px;
-        }
-
-        .card {
-            border-bottom: 2px solid #ccc;
-            padding: 20px;
-            width: 250px;
-            text-align: left;
-        }
-
-        .card h2 {
-            display: flex;
-            align-items: center;
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
-
-        ul.story-list {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        ul.story-list li {
-            margin: 8px 0;
-        }
-
-        ul.story-list li a {
-            text-decoration: none;
-            color: #34495e;
-            font-size: 16px;
-        }
-
-        ul.story-list li a:hover {
-            color: #e74c3c;
-        }
-
-        .exit-container {
-            margin-top: 60px;
-            margin-bottom: 40px;
-            display: flex;
-            justify-content: center;
-        }
-
-        .exit-button {
-            background-color: #f2f2f2;
-            color: black;
-            border: 1px solid #ccc;
-            padding: 6px 14px;
-            font-size: 14px;
-            font-weight: normal;
-            cursor: pointer;
-            border-radius: 4px;
-            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-            transition: 0.3s;
-        }
-
-        .exit-button:hover {
-            background-color: #e6e6e6;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
 <!-- Header Buttons -->
-<div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 10px;">
-    <a href="publish.jsp"><button style="padding: 10px 40px;">Become a Story Publisher</button></a>
-    <a href="about.jsp"><button style="padding: 10px 40px;">About Us</button></a>
+<div class="header-buttons">
+    <a href="publish.jsp"><button style="padding: 10px 20px;">Become a Story Publisher</button></a>
+    <a href="about.jsp"><button style="padding: 10px 20px;">About Us</button></a>
 </div>
 
 <h1>Welcome to StoryApp</h1>
@@ -170,6 +72,7 @@
             <% } %>
         </ul>
     </div>
+</div>
 
 <!-- Exit Button -->
 <div class="exit-container">
