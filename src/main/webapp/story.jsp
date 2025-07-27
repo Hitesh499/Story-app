@@ -91,7 +91,7 @@
     "And one day, it won't need to whisper.\n" +
     "It’ll already be you.”");
 
-    stories.put("💌 THE LAST LETTER FROM GRANDMA,
+    stories.put("💌 THE LAST LETTER FROM GRANDMA",
     "💌 THE LAST LETTER FROM GRANDMA\n" +
     "________________________________________\n" +
     "Episode-1. The Funeral\n" + 
@@ -102,20 +102,20 @@
     "________________________________________\n" +
     "Episode-2. The Letter Box\n" +
     "On the third day after the funeral, while helping clean the attic, Riya found a small wooden box beneath Grandma’s sewing cabinet. The lock was rusted shut, but taped to the bottom was a note in Grandma’s spidery handwriting:\n" +
-    "“For Riya. When you're ready to listen — truly listen.”\n" +
+    "\\\"For Riya. When you're ready to listen — truly listen.\\\"\n" +
     "Inside the box: A single letter, sealed in wax with a pressed marigold on top.\n" +
     "And beneath it, a stack of old, yellowed envelopes, each labeled with a year — from 1960 to 2024.\n" +
     "________________________________________\n" +
     "Episode-3. The Last Letter\n" +
     "Riya opened the letter addressed to her.\n" +
     "It read:\n" +
-    “My dearest Riya,\n" +
+    \"My dearest Riya,\n" +
     "If you're reading this, it means I’m no longer there to frown at your messy sketchbooks or hide your paintbrushes. I was wrong, Riya. So wrong. I tried to mold you into someone the world would approve of. But the truth is, I was just scared. Scared that your dreams would break you like mine once broke me.\n" +
     "Under the stairs, you’ll find a trunk. Inside it — the art I never showed anyone. Not even your mother.\n" +
     "Your talent doesn’t skip generations. It’s been hiding in this house for decades.\n" +
     "Now go. Create. And forgive me if you can.\n" +
     "With all the love I never said out loud,\n" +
-    "Grandma Meera”\n" +
+    "Grandma Meera\n" +
     "________________________________________\n" +
     "Episode-4. The Secret Trunk\n" +
     "Under the wooden stairs, Riya found a dusty trunk.\n" +
@@ -127,7 +127,7 @@
     "________________________________________\n" +
     "Episode-5. A New Beginning\n" +
     "A few months later, Riya hosted her first gallery show in Kolkata.\n" +
-    "At the center was a piece titled "Meera's Silence" — a portrait of her grandmother holding a brush, but with her lips stitched shut.\n" +
+    "At the center was a piece titled \\\"Meera's Silence\\\" — a portrait of her grandmother holding a brush, but with her lips stitched shut.\n" +
     "Beside it, framed in gold, was the last letter.\n" +
     "Visitors cried. Some clapped.\n" +
     "Riya smiled.\n" +
