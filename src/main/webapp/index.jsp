@@ -14,7 +14,7 @@
 
     episodicStories.put("🕯️ WHISPERS IN THE WELL", "");
     episodicStories.put("💌 THE LAST LETTER FROM GRANDMA", "");
-    episodicStories.put("💻 THE LAST WILL AND WI-FI PASSWORD", "");
+    episodicStories.put("🕯️ WHISPERS IN THE WELL", "");
 %>
 
 <!DOCTYPE html>
@@ -123,6 +123,12 @@
 </head>
 <body>
 
+<!-- Header Buttons -->
+<div class="header-buttons">
+    <a href="publish.jsp"><button>Publish Your Story</button></a>
+    <a href="about.jsp"><button>About Us</button></a>
+</div>
+
 <h1>Welcome to StoryApp</h1>
 
 <!-- Search Bar -->
@@ -159,22 +165,11 @@
     <div class="card">
         <h2>📙 Episodic Stories</h2>
         <ul class="story-list">
-            <% 
-                if (episodicStories.isEmpty()) { 
-            %>
-                <li><em>Coming soon...</em></li>
-            <% 
-                } else {
-                    for (String title : episodicStories.keySet()) { 
-            %>
+            <% for (String title : episodicStories.keySet()) { %>
                 <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(title, "UTF-8") %>"><%= title %></a></li>
-            <% 
-                    }
-                } 
-            %>
+            <% } %>
         </ul>
     </div>
-</div>
 
 <!-- Exit Button -->
 <div class="exit-container">
