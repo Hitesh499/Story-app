@@ -1,4 +1,4 @@
-<%@ page import="java.util.*" %>
+<%@ page import="java.io.*, java.util.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     // Story categorization
@@ -82,7 +82,7 @@
 
     File file = new File(filePath);
     if (file.exists()) {
-        BufferedReader reader = new BufferedReader(new FileReader(file));
+       try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
         String line;
         String title = null;
         StringBuilder content = new StringBuilder();
