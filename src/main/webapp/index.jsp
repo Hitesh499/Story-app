@@ -25,14 +25,13 @@
 </head>
 <body>
 
-<!-- Combined Header Row -->
-<div class="header-row">
-    <h1>Welcome to StoryApp</h1>
-    <div class="header-buttons">
-        <a href="publish.jsp"><button>Become a Story Publisher</button></a>
-        <a href="about.jsp"><button>About Us</button></a>
-    </div>
+<!-- Header Buttons -->
+<div class="header-buttons">
+    <a href="publish.jsp"><button style="padding: 10px 20px;">Become a Story Publisher</button></a>
+    <a href="about.jsp"><button style="padding: 10px 20px;">About Us</button></a>
 </div>
+
+<h1>Welcome to StoryApp</h1>
 
 <!-- Search Bar -->
 <div class="search-container">
