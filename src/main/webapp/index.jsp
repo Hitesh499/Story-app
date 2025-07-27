@@ -26,12 +26,14 @@
 <body>
 
 <!-- Header Buttons -->
-<div class="header-buttons">
-    <a href="publish.jsp"><button style="padding: 10px 50px;">Become a Story Publisher</button></a>
-    <a href="about.jsp"><button style="padding: 10px 20px;">About Us</button></a>
-</div>
+<div class="header-wrapper">
+    <div class="top-right-buttons">
+        <a href="publish.jsp"><button>Become Author</button></a>
+        <a href="about.jsp"><button>About Us</button></a>
+    </div>
 
-<h1>Welcome to StoryApp</h1>
+    <h1 class="center-heading">Welcome to Story App</h1>
+</div>
 
 <!-- Search Bar -->
 <div class="search-container">

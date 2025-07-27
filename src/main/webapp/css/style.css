@@ -96,10 +96,38 @@ ul.story-list li a:hover {
     background-color: #e6e6e6;
 }
 
-.header-buttons {
+.header-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header-wrapper h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.top-right-buttons {
     position: absolute;
-    top: 60px;   /* Moved 5cm (~48px) down */
-    right: 250px; /* Moved 5cm (~200px) to the left */
+    right: 10%;
+    top: -20px;
     display: flex;
     gap: 10px;
+}
+
+.top-right-buttons button {
+    padding: 6px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.top-right-buttons button:hover {
+    background-color: #eaeaea;
 }
