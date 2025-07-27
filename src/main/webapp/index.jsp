@@ -1,4 +1,4 @@
-<%@ page import="java.util.*" %>
+ <%@ page import="java.util.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     // Story categorization
@@ -6,11 +6,11 @@
     Map<String, String> longFormStories = new LinkedHashMap<>();
     Map<String, String> episodicStories = new LinkedHashMap<>();
 
-    shortStories.put("I AM PRINCE NOT A HERO", "");
-    shortStories.put("THE SILENCE TO GEAR UP MY LIFE", "");
+    shortStories.put("👑 I AM PRINCE NOT A HERO", "");
+    shortStories.put("🧘 THE SILENCE TO GEAR UP MY LIFE", "");
 
-    longFormStories.put("A DAY THAT I CAN NEVER FORGOT", "");
-    longFormStories.put("THE SWORD OF FORGOTTEN TRUTHS", "");
+    longFormStories.put("🌑 A DAY THAT I CAN NEVER FORGOT", "");
+    longFormStories.put("⚔️ THE SWORD OF FORGOTTEN TRUTHS", "");
 
     episodicStories.put("🕯️ WHISPERS IN THE WELL", "");
 %>
@@ -102,25 +102,26 @@
         }
 
         .exit-button {
-            background-color: white;
+            background-color: #f2f2f2;
             color: black;
-            border: 2px solid black;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
+            border: 1px solid #ccc;
+            padding: 6px 14px;
+            font-size: 14px;
+            font-weight: normal;
             cursor: pointer;
-            border-radius: 8px;
+            border-radius: 4px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
             transition: 0.3s;
         }
 
         .exit-button:hover {
-            background-color: #f0f0f0;
+            background-color: #e6e6e6;
         }
     </style>
 </head>
 <body>
 
-<h1>Welcome to the Story App</h1>
+<h1>Welcome to StoryApp</h1>
 
 <!-- Search Bar -->
 <div class="search-container">
