@@ -96,10 +96,28 @@ ul.story-list li a:hover {
     background-color: #e6e6e6;
 }
 
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.header-row h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #2c3e50;
+}
+
 .header-buttons {
-    position: absolute;
-    top: 60px;   /* Moved 5cm (~48px) down */
-    right: 250px; /* Moved 5cm (~200px) to the left */
     display: flex;
     gap: 10px;
+}
+
+.header-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
 }
