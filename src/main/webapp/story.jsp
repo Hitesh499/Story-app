@@ -186,7 +186,7 @@
     "Turns out, Grandpa had been engaged once before marrying Grandma. The engagement broke — but he never spoke about it.\n" +
     "This sparked the biggest argument yet:\n" +
     "\\\"He had a secret fiancée?!\\\"\n" +
-    "\\\"What if she’s in the will?\\\"\n +
+    "\\\"What if she’s in the will?\\\"\n" +
     "But Rhea was quiet. She kept reading the poems.\n" +
     "________________________________________\n" +
     "Episode-5. Rhea Cracks the Code\n" +
