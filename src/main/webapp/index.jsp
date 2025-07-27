@@ -141,7 +141,7 @@ if (file.exists()) {
 %>
     <div style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
         <h3><%= story[0] %></h3>
-        <p><%= story[1] %></p>
+        <p><%= story[1].replace("\n", "<br/>") %></p>
     </div>
 <%
     }
