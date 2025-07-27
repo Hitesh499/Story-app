@@ -76,6 +76,54 @@
     </div>
 </div>
 
+<%
+    String filePath = application.getRealPath("/") + "stories.txt";
+    List<String[]> userStories = new ArrayList<>();
+
+    File file = new File(filePath);
+    if (file.exists()) {
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        String line;
+        String title = null;
+        StringBuilder content = new StringBuilder();
+        while ((line = reader.readLine()) != null) {
+            if (line.startsWith("### ")) {
+                if (title != null) {
+                    userStories.add(new String[]{title, content.toString()});
+                    content.setLength(0);
+                }
+                title = line.substring(4).trim();
+            } else if (line.equals("---END---")) {
+                if (title != null) {
+                    userStories.add(new String[]{title, content.toString()});
+                    title = null;
+                    content.setLength(0);
+                }
+            } else {
+                content.append(line).append("<br>");
+            }
+        }
+        if (title != null && content.length() > 0) {
+            userStories.add(new String[]{title, content.toString()});
+        }
+        reader.close();
+    }
+%>
+
+    <h2 style="margin-top: 40px;">User Submitted Stories</h2>
+    <div style="margin-top: 20px;">
+    <%
+        for (String[] story : userStories) {
+    %>
+        <div style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+            <h3><%= story[0] %></h3>
+            <p><%= story[1] %></p>
+        </div>
+    <%
+        }
+    %>
+    </div>
+
 <!-- Exit Button -->
 <div class="exit-container">
     <form action="story.jsp" method="get">
