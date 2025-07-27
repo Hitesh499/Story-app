@@ -94,7 +94,7 @@
     stories.put("💌 THE LAST LETTER FROM GRANDMA,
     "💌 THE LAST LETTER FROM GRANDMA\n" +
     "________________________________________\n" +
-    "Episode-1. The Funeral\n + 
+    "Episode-1. The Funeral\n" + 
     "When Grandma Meera passed away at 87, the entire Sharma family returned to the old ancestral home in Darjeeling. The house, perched on a misty hillside, still smelled like cardamom tea and old books.\n" +
     "Riya, her 18-year-old granddaughter, hadn’t seen Grandma in a year — not since their falling out over Riya's choice to pursue art instead of medicine.\n" +
     "Grandma had always been loving… but strict. And now she was gone. No goodbyes. No closure.\n" +
