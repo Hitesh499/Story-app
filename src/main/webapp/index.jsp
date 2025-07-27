@@ -27,7 +27,7 @@
 
 <!-- Header Buttons -->
 <div class="header-buttons">
-    <a href="publish.jsp"><button style="padding: 10px 20px;">Become a Story Publisher</button></a>
+    <a href="publish.jsp"><button style="padding: 10px 50px;">Become a Story Publisher</button></a>
     <a href="about.jsp"><button style="padding: 10px 20px;">About Us</button></a>
 </div>
 
