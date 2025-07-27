@@ -14,7 +14,7 @@
 
     episodicStories.put("🕯️ WHISPERS IN THE WELL", "");
     episodicStories.put("💌 THE LAST LETTER FROM GRANDMA", "");
-    episodicStories.put("🕯️ WHISPERS IN THE WELL", "");
+    episodicStories.put("💻 THE LAST WILL AND WI-FI PASSWORD", "");
 %>
 
 <!DOCTYPE html>
@@ -124,9 +124,9 @@
 <body>
 
 <!-- Header Buttons -->
-<div class="header-buttons">
-    <a href="publish.jsp"><button>Publish Your Story</button></a>
-    <a href="about.jsp"><button>About Us</button></a>
+<div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 10px;">
+    <a href="publish.jsp"><button style="padding: 10px 40px;">Become a Story Publisher</button></a>
+    <a href="about.jsp"><button style="padding: 10px 40px;">About Us</button></a>
 </div>
 
 <h1>Welcome to StoryApp</h1>
