@@ -1,11 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Create Short Story</title>
+    <title>Create Long-form Story</title>
 </head>
 <body style="font-family: Arial, sans-serif; padding: 50px; text-align: center;">
 
-    <h2>Create a Short Story</h2>
+    <h2>Create a Long-form Story</h2>
 
     <form action="submitShortStory.jsp" method="post">
         <div style="margin-bottom: 20px;">
