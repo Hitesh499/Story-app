@@ -13,6 +13,8 @@
     longFormStories.put("⚔️ THE SWORD OF FORGOTTEN TRUTHS", "");
 
     episodicStories.put("🕯️ WHISPERS IN THE WELL", "");
+    episodicStories.put("💌 THE LAST LETTER FROM GRANDMA", "");
+    episodicStories.put("💻 THE LAST WILL AND WI-FI PASSWORD", "");
 %>
 
 <!DOCTYPE html>
