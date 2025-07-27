@@ -192,9 +192,9 @@
     "Episode-5. Rhea Cracks the Code\n" +
     "Late at night, while everyone was snoring or fake-snoring in protest, Rhea tiptoed to the laptop.\n" +
     "She stared at the note again:\n" +
-    "\\\"Whoever truly knew me... will know the password.\\\"\n +
+    "\\\"Whoever truly knew me... will know the password.\\\"\n" +
     "She thought back to Grandpa reading stories, always ending with the same line: “The greatest treasure is the thing we forget to say.\n" +
-    "Her hands trembled as she typed: \\\“ImSorry2023\\\"\n" +
+    "Her hands trembled as she typed: \\\"ImSorry2023\\\"\n" +
     "The laptop unlocked.\n" +
     "________________________________________\n" +
     "Episode-6. The Will\n" +
