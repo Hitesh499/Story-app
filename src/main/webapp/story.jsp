@@ -216,7 +216,7 @@
     "Everyone laughed. That night, they stayed up reading his letters, sharing memories, and actually listening to each other.\n" +
     "No more shouting. Just warm lights, laughter, and — finally — Wi-Fi.\n" +
     "And Rhea? She started a blog called \\\"Letters & Passwords\\\", helping families document stories before it’s too late.\n" +
-    "Because sometimes, the best inheritance isn’t money — It’s understanding.")
+    "Because sometimes, the best inheritance isn’t money — It’s understanding.");
 
     String content = stories.get(title);
 %>
