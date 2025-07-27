@@ -78,41 +78,60 @@
 
 <%
     String filePath = application.getRealPath("/") + "stories.txt";
-    List<String[]> userStories = new ArrayList<>();
+File file = new File(filePath);
+if (file.exists()) {
+    BufferedReader reader = new BufferedReader(new FileReader(file));
+    String line;
+    String title = null;
+    String category = null;
+    StringBuilder content = new StringBuilder();
 
-    File file = new File(filePath);
-    if (file.exists()) {
-        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
-            String line;
-            String title = null;
-            StringBuilder content = new StringBuilder();
-            while ((line = reader.readLine()) != null) {
-                if (line.startsWith("### ")) {
-                    if (title != null) {
-                        userStories.add(new String[]{title, content.toString()});
-                        content.setLength(0);
-                    }
-                    title = line.substring(4).trim();
-                } else if (line.equals("---END---")) {
-                    if (title != null) {
-                        userStories.add(new String[]{title, content.toString()});
-                        title = null;
-                        content.setLength(0);
-                    }
-                } else {
-                    content.append(line).append("\n");
+    while ((line = reader.readLine()) != null) {
+        if (line.startsWith("### Title:")) {
+            if (title != null && category != null && content.length() > 0) {
+                if (category.equalsIgnoreCase("Short Stories")) {
+                    shortStories.put(title, content.toString().trim());
+                } else if (category.equalsIgnoreCase("Long-form Stories")) {
+                    longFormStories.put(title, content.toString().trim());
+                } else if (category.equalsIgnoreCase("Episodic Stories")) {
+                    episodicStories.put(title, content.toString().trim());
                 }
             }
-
-            // ✅ Final story if file ends without ---END---
-            if (title != null) {
-                userStories.add(new String[]{title, content.toString()});
+            title = line.substring(10).trim();
+            content.setLength(0);
+        } else if (line.startsWith("### Category:")) {
+            category = line.substring(14).trim();
+        } else if (line.equals("---END---")) {
+            if (title != null && category != null && content.length() > 0) {
+                if (category.equalsIgnoreCase("Short Stories")) {
+                    shortStories.put(title, content.toString().trim());
+                } else if (category.equalsIgnoreCase("Long-form Stories")) {
+                    longFormStories.put(title, content.toString().trim());
+                } else if (category.equalsIgnoreCase("Episodic Stories")) {
+                    episodicStories.put(title, content.toString().trim());
+                }
+                title = null;
+                category = null;
+                content.setLength(0);
             }
-
-        } catch (IOException e) {
-            e.printStackTrace();
+        } else {
+            content.append("<p>").append(line.trim()).append("</p>\n");
         }
     }
+
+    // Handle unclosed final entry
+    if (title != null && category != null && content.length() > 0) {
+        if (category.equalsIgnoreCase("Short Stories")) {
+            shortStories.put(title, content.toString().trim());
+        } else if (category.equalsIgnoreCase("Long-form Stories")) {
+            longFormStories.put(title, content.toString().trim());
+        } else if (category.equalsIgnoreCase("Episodic Stories")) {
+            episodicStories.put(title, content.toString().trim());
+        }
+    }
+
+    reader.close();
+}
 %>
 
 <h2 style="margin-top: 40px;">User Submitted Stories</h2>
