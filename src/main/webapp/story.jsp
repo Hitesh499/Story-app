@@ -2,8 +2,25 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String title = request.getParameter("title");
+    String genre = request.getParameter("genre");
 
     Map<String, String> stories = new LinkedHashMap<>();
+    Map<String, List<String>> genreMap = new LinkedHashMap<>();
+
+    // Define genre-wise story titles
+    genreMap.put("Drama", Arrays.asList("👑 I AM PRINCE NOT A HERO", "🧘 THE SILENCE TO GEAR UP MY LIFE"));
+    genreMap.put("Comedy", Arrays.asList("💻 THE LAST WILL AND WI-FI PASSWORD"));
+    genreMap.put("Tragedy", Arrays.asList("🌑 A DAY THAT I CAN NEVER FORGOT"));
+    genreMap.put("Romance", Arrays.asList("💌 THE LAST LETTER FROM GRANDMA"));
+    genreMap.put("Adventure", Arrays.asList("⚔️ THE SWORD OF FORGOTTEN TRUTHS"));
+    genreMap.put("Horror", Arrays.asList("🕯️ WHISPERS IN THE WELL"));
+    genreMap.put("Mystery/Thriller", Arrays.asList("🕯️ WHISPERS IN THE WELL", "🌑 A DAY THAT I CAN NEVER FORGOT"));
+    genreMap.put("Science Fiction", Arrays.asList());
+    genreMap.put("Fantasy", Arrays.asList("⚔️ THE SWORD OF FORGOTTEN TRUTHS"));
+    genreMap.put("Historical Fiction", Arrays.asList("💌 THE LAST LETTER FROM GRANDMA"));
+    genreMap.put("Crime/Detective", Arrays.asList("🌑 A DAY THAT I CAN NEVER FORGOT"));
+
+    // Stories data
     stories.put("👑 I AM PRINCE NOT A HERO", 
     "I was born in the palace, with golden robes and jeweled crowns awaiting my name. From the very first day, everyone told me I was destined to be a hero—the savior, the leader, the perfect son of a perfect king.\n\nBut I never wanted to be a hero. I saw how the people outside the palace gates lived, struggled, and smiled in simplicity. I envied their freedom.\n\nSo I walked away. I took off the crown, shed the title, and disguised myself as one among the people. I worked in the fields, ate at the street stalls, and listened to stories from grandmothers who had nothing but memories.\n\nIn that life, I found myself. I helped a child get an education, I stood by a friend in grief, and I fought not with swords but with compassion. \n\nWhen the kingdom fell into despair, I returned—not as a prince on a white horse, but as a man who had lived the life of his people.\n\nThey called me a hero then. But I told them—I’m no hero. I’m just someone who finally chose to be human.\n\nI am a prince, not a hero. And that is enough.");
 
