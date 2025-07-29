@@ -287,23 +287,29 @@
 </head>
 <body>
 <%
-    if (title == null) {
+    if (genre != null && genreMap.containsKey(genre)) {
+        List<String> genreStories = genreMap.get(genre);
 %>
-    <h1>Thank you for spending your valuable time — reading our stories</h1>
-    <p>You can close the tab.</p>
+    <h1>Stories in <%= genre %> Genre</h1>
+    <ul>
+    <% for (String storyTitle : genreStories) { %>
+        <li><a href="story.jsp?title=<%= java.net.URLEncoder.encode(storyTitle, "UTF-8") %>"><%= storyTitle %></a></li>
+    <% } %>
+    </ul>
 <%
-    } else if (content == null) {
+    } else if (title != null && content != null) {
+%>
+    <h1><%= title %></h1>
+    <pre><%= content %></pre>
+<%
+    } else if (title != null) {
 %>
     <div class="message">Oops! The story you're looking for doesn't exist.</div>
 <%
     } else {
 %>
-    <h1><%= title %></h1>
-    <pre><%= content %></pre>
+    <h1>Thank you for spending your valuable time — reading our stories</h1>
+    <p>You can close the tab.</p>
 <%
     }
 %>
-
-<a class="back-link" href="index.jsp">← Back to Home</a>
-</body>
-</html>
