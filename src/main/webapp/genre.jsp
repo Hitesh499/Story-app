@@ -53,18 +53,18 @@
 <div class="genre-section">
     <button class="genre-button" onclick="toggleGenres()">Choose Genre</button>
     <ul class="genre-list" id="genreList">
-        <li><a href="stories.jsp?genre=Drama">Drama</a></li>
-        <li><a href="stories.jsp?genre=Comedy">Comedy</a></li>
-        <li><a href="stories.jsp?genre=Tragedy">Tragedy</a></li>
-        <li><a href="stories.jsp?genre=Romance">Romance</a></li>
-        <li><a href="stories.jsp?genre=Adventure">Adventure</a></li>
-        <li><a href="stories.jsp?genre=Horror">Horror</a></li>
-        <li><a href="stories.jsp?genre=Mystery">Mystery/Thriller</a></li>
-        <li><a href="stories.jsp?genre=ScienceFiction">Science Fiction</a></li>
-        <li><a href="stories.jsp?genre=Fantasy">Fantasy</a></li>
-        <li><a href="stories.jsp?genre=HistoricalFiction">Historical Fiction</a></li>
-        <li><a href="stories.jsp?genre=Crime">Crime/Detective</a></li>
-        <li><a href="stories.jsp?genre=Slice of Life">Slice of Life</a></li>
+        <li><a href="story.jsp?genre=Drama">Drama</a></li>
+        <li><a href="story.jsp?genre=Comedy">Comedy</a></li>
+        <li><a href="story.jsp?genre=Tragedy">Tragedy</a></li>
+        <li><a href="story.jsp?genre=Romance">Romance</a></li>
+        <li><a href="story.jsp?genre=Adventure">Adventure</a></li>
+        <li><a href="story.jsp?genre=Horror">Horror</a></li>
+        <li><a href="story.jsp?genre=Mystery">Mystery/Thriller</a></li>
+        <li><a href="story.jsp?genre=ScienceFiction">Science Fiction</a></li>
+        <li><a href="story.jsp?genre=Fantasy">Fantasy</a></li>
+        <li><a href="story.jsp?genre=HistoricalFiction">Historical Fiction</a></li>
+        <li><a href="story.jsp?genre=Crime">Crime/Detective</a></li>
+        <li><a href="story.jsp?genre=Slice of Life">Slice of Life</a></li>
     </ul>
 </div>
 
