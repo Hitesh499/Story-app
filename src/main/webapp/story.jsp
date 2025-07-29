@@ -1,5 +1,5 @@
 <%@ page import="java.util.*" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <%
     String title = request.getParameter("title");
     String genre = request.getParameter("genre");
@@ -119,7 +119,7 @@
     "________________________________________\n" +
     "Episode-2. The Letter Box\n" +
     "On the third day after the funeral, while helping clean the attic, Riya found a small wooden box beneath Grandma’s sewing cabinet. The lock was rusted shut, but taped to the bottom was a note in Grandma’s spidery handwriting:\n" +
-    "\\\"For Riya. When you're ready to listen — truly listen.\\\"\n" +
+    "\"For Riya. When you're ready to listen — truly listen.\"\n" +
     "Inside the box: A single letter, sealed in wax with a pressed marigold on top.\n" +
     "And beneath it, a stack of old, yellowed envelopes, each labeled with a year — from 1960 to 2024.\n" +
     "________________________________________\n" +
@@ -144,7 +144,7 @@
     "________________________________________\n" +
     "Episode-5. A New Beginning\n" +
     "A few months later, Riya hosted her first gallery show in Kolkata.\n" +
-    "At the center was a piece titled \\\"Meera's Silence\\\" — a portrait of her grandmother holding a brush, but with her lips stitched shut.\n" +
+    "At the center was a piece titled \"Meera's Silence\" — a portrait of her grandmother holding a brush, but with her lips stitched shut.\n" +
     "Beside it, framed in gold, was the last letter.\n" +
     "Visitors cried. Some clapped.\n" +
     "Riya smiled.\n" +
@@ -170,12 +170,12 @@
     "P.S. The Wi-Fi is off until you figure it out.\n" +
     "________________________________________\n" +
     "Episode-2. Operation Guess-the-Password\n" +
-    "The family formed a \\\"Password Task Force\\\", led by the overly confident cousin Sameer, who had once Googled \\\"How to hack Facebook.\\\"\n" +
+    "The family formed a \"Password Task Force\", led by the overly confident cousin Sameer, who had once Googled \\\"How to hack Facebook.\\\"\n" +
     "Everyone had ideas:\n" +
-    "\\\"Kishore123\\\" – Wrong.\n" +
-    "\\\"ILoveCricket\\\" – Nope.\n" +
-    "\\\"PinkyTheDog\\\" – (That was the neighbor’s dog.)\n" +
-    "\\\"MangoPickle1965\\\" – Close, but no.\n" +
+    "\"Kishore123\" – Wrong.\n" +
+    "\"ILoveCricket\" – Nope.\n" +
+    "\"PinkyTheDog\" – (That was the neighbor’s dog.)\n" +
+    "\"MangoPickle1965\" – Close, but no.\n" +
     "By night, they’d tried over 400 guesses. The laptop was now threatening to lock them out permanently.\n" +
     "Meanwhile, tempers flared.\n" +
     "Aunties argued. Cousins blamed each other.\n" +
@@ -189,7 +189,7 @@
     "* How he’d hide sweets in the drawer labeled “Tax Receipts.”\n" +
     "* How he refused to buy a smartphone, saying, “If I need a screen, I’ll just stare out the window.”\n" +
     "Then Rhea, the youngest granddaughter, whispered:\n" +
-    "\\\"Didn’t Dadu always say the most valuable things were ‘invisible’?\\\"\n" +
+    "\"Didn’t Dadu always say the most valuable things were ‘invisible’?\"\n" +
     "They stared at her.\n" +
     "Then at the laptop.\n" +
     "Then shrugged.\n" +
@@ -202,37 +202,37 @@
     "* A photo of Grandpa as a young man... standing next to someone no one recognized.\n" +
     "Turns out, Grandpa had been engaged once before marrying Grandma. The engagement broke — but he never spoke about it.\n" +
     "This sparked the biggest argument yet:\n" +
-    "\\\"He had a secret fiancée?!\\\"\n" +
-    "\\\"What if she’s in the will?\\\"\n" +
+    "\"He had a secret fiancée?!\"\n" +
+    "\"What if she’s in the will?\"\n" +
     "But Rhea was quiet. She kept reading the poems.\n" +
     "________________________________________\n" +
     "Episode-5. Rhea Cracks the Code\n" +
     "Late at night, while everyone was snoring or fake-snoring in protest, Rhea tiptoed to the laptop.\n" +
     "She stared at the note again:\n" +
-    "\\\"Whoever truly knew me... will know the password.\\\"\n" +
+    "\"Whoever truly knew me... will know the password.\"\n" +
     "She thought back to Grandpa reading stories, always ending with the same line: “The greatest treasure is the thing we forget to say.\n" +
-    "Her hands trembled as she typed: \\\"ImSorry2023\\\"\n" +
+    "Her hands trembled as she typed: \"ImSorry2023\"\n" +
     "The laptop unlocked.\n" +
     "________________________________________\n" +
     "Episode-6. The Will\n" +
     "The will wasn’t what they expected.\n" +
     "No lists of jewelry, land, or gold.\n" +
     "Just a video message from Grandpa, smiling warmly:\n" +
-    "\\\"If you’re watching this, I’m either dead or in Goa pretending to be.\\\"\n" +
-    "\\\"Jokes aside — I loved you all, but I saw how money always tore people apart. So I left you something better.\\\"\n" +
+    "\"If you’re watching this, I’m either dead or in Goa pretending to be.\"\n" +
+    "\"Jokes aside — I loved you all, but I saw how money always tore people apart. So I left you something better.\"\n" +
     "He left:\n" +
     "* The house, to be turned into a community library.\n" +
     "* The savings, donated to a girls’ education fund in the village.\n" +
     "* Personal letters to each family member, including ones filled with apologies, encouragement, and awkward jokes.\n" +
-    "And one final line: \\\"P.S. The Wi-Fi password is: ForgiveMe2023\\\"\n" +
+    "And one final line: \"P.S. The Wi-Fi password is: ForgiveMe2023\"\n" +
     "________________________________________\n" +
     "Episode-7. The Last Laugh and a New Start\n" +
     "The room was silent.\n" +
     "Then Sameer muttered:\n" +
-    "\\\"So basically... Grandpa Rickrolled us into healing?\\\"\n" +
+    "\"So basically... Grandpa Rickrolled us into healing?\"\n" +
     "Everyone laughed. That night, they stayed up reading his letters, sharing memories, and actually listening to each other.\n" +
     "No more shouting. Just warm lights, laughter, and — finally — Wi-Fi.\n" +
-    "And Rhea? She started a blog called \\\"Letters & Passwords\\\", helping families document stories before it’s too late.\n" +
+    "And Rhea? She started a blog called \"Letters & Passwords\", helping families document stories before it’s too late.\n" +
     "Because sometimes, the best inheritance isn’t money — It’s understanding.");
 
     String content = stories.get(title);
@@ -240,6 +240,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title><%= title != null ? title : "Story Viewer" %></title>
     <style>
         body {

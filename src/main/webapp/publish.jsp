@@ -1,6 +1,7 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Publish Your Story</title>
 </head>
 <body style="font-family: Arial, sans-serif; text-align: center; padding-top: 50px;">

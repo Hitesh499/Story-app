@@ -1,5 +1,5 @@
 <%@ page import="java.io.*, java.util.*" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <%
     // Story categorization
     Map<String, String> shortStories = new LinkedHashMap<>();
@@ -20,6 +20,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Story App</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>

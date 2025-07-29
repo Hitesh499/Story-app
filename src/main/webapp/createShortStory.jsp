@@ -1,6 +1,7 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Create Short Story</title>
 </head>
 <body style="font-family: Arial, sans-serif; padding: 50px; text-align: center;">

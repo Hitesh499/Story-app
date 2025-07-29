@@ -22,7 +22,9 @@
     }
 %>
 <html>
-<head><title>Story Submitted</title></head>
+<head>
+    <meta charset="UTF-8">
+    <title>Story Submitted</title></head>
 <body style="text-align:center; padding-top:50px;">
     <h2>Thanks for Sharing!</h2>
     <h3><%= name %></h3>
