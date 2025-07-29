@@ -28,7 +28,7 @@
 <!-- Header Buttons -->
 <div class="header-wrapper">
     <div class="top-right-buttons">
-        <a href="publish.jsp"><button>Become Author</button></a>
+        <a href="author-login.jsp"><button>Become Author</button></a>
         <a href="genre.jsp"><button>Genre</button></a> <!-- ✅ Added Genre Button -->
         <a href="about.jsp"><button>About Us</button></a>
     </div>
