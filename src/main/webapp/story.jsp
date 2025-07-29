@@ -305,11 +305,13 @@
     } else if (title != null) {
 %>
     <div class="message">Oops! The story you're looking for doesn't exist.</div>
+    <a href="index.jsp">← Back to Home</a>
 <%
     } else {
 %>
     <h1>Thank you for spending your valuable time — reading our stories</h1>
     <p>You can close the tab.</p>
+    <a href="index.jsp">← Back to Home</a>
 <%
     }
 %>
