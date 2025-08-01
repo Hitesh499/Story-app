@@ -401,7 +401,7 @@
     "\"Manav - kept.\"\n" +
     "\"Mithya - gone.\"\n" +
     "My head spun.\n" +
-    "\"They left me in a shelter. Thought I’d die. But I didn’t. I learned things there. Learned to survive. To trick. To mimic. And now... I’ve come back."\n" +
+    "\"They left me in a shelter. Thought I’d die. But I didn’t. I learned things there. Learned to survive. To trick. To mimic. And now... I’ve come back.\"\n" +
     "He leaned closer, eyes burning.\n" +
     "\"To take back the life that was stolen from me.\"\n" +
 "\n" +
@@ -621,7 +621,7 @@
 "00:01:30\n" +
 "A box in the corner opens. Inside - a birthday cake. With candles. And wires.\n" +
 "The final joke is a bomb.\n" +
-"\"Happy birthday, Radhe,"\" Aryan says.\n" +
+"\"Happy birthday, Radhe,\" Aryan says.\n" +
 "\"Blow the candles, or everything goes up.\"\n" +
 "________________________________________\n" +
 "🪞 Episode 6: Laughter Before Silence\n" +
@@ -1357,7 +1357,7 @@
 "And now?\n" +
 "You’re ready to move forward.\n" +
 "Because the final face...\n" +
-"…was your own.\n";
+"...was your own.\n";
 
     String content = stories.get(title);
 %>
