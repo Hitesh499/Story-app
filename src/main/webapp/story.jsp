@@ -403,19 +403,19 @@
     "My head spun.\n" +
     "\"They left me in a shelter. Thought I’d die. But I didn’t. I learned things there. Learned to survive. To trick. To mimic. And now... I’ve come back."\n" +
     "He leaned closer, eyes burning.\n" +
-    "\"To take back the life that was stolen from me.”\n" +
+    "\"To take back the life that was stolen from me.\"\n" +
 "\n" +
     "Sudden Screech. Flashlight dies.\n" +
     "Darkness.\n" +
     "I reached for my pocket.\n" +
     "The walkie-talkie buzzed.\n" +
     "\"Hello? Hello?! Radhe, are you there?! Say something!\"\n" +
-    "I tried to respond — no use. Static.\n" +
+    "I tried to respond - no use. Static.\n" +
     "Then a voice whispered behind me:\n" +
-    "\"Let’s play again… but this time, you’re the one tied to the chair.\"\n" +
-    "Before I could turn — something hit the back of my head.\n" +
+    "\"Let’s play again... but this time, you’re the one tied to the chair.\"\n" +
+    "Before I could turn - something hit the back of my head.\n" +
 "\n" +
-    "1:10 AM — Tied to the Truth\n" +
+    "1:10 AM - Tied to the Truth\n" +
     "I woke up, hands tied, flashlight flickering weakly on the ground.\n" +
     "He sat in front of me, calmly sipping a cola.\n" +
     "\"You like jokes, right? Want to hear a dark one?\"\n" +
@@ -429,7 +429,7 @@
     "A video.\n" +
     "My parents - again.\n" +
     "But this time, they were in my room. Tied. Gagged. With me - or him - standing behind them, holding a candle.\n" +
-    "\"One move from you. One call to the police. And your room becomes a grave."\n" +
+    "\"One move from you. One call to the police. And your room becomes a grave.\"\n" +
     "Twist #2: The Choice\n" +
     "He placed two things in front of me.\n" +
     "A USB drive and a phone.\n" +
@@ -446,7 +446,7 @@
     "I laughed.\n" +
     "A laugh so loud, so absurd, so unhinged... even he looked confused.\n" +
     "\"You okay, brother?\"\n" +
-    "\"Yeah,"\ I said, still laughing. \"Because you forgot one thing.\"\n" +
+    "\"Yeah,\" I said, still laughing. \"Because you forgot one thing.\"\n" +
     "He tilted his head.\n" +
     "\"What?\"\n" +
     "\"The camera behind you.\"\n" +
@@ -622,7 +622,7 @@
 "A box in the corner opens. Inside - a birthday cake. With candles. And wires.\n" +
 "The final joke is a bomb.\n" +
 "\"Happy birthday, Radhe,"\" Aryan says.\n" +
-"“Blow the candles, or everything goes up.”\n" +
+"\"Blow the candles, or everything goes up.\"\n" +
 "________________________________________\n" +
 "🪞 Episode 6: Laughter Before Silence\n" +
 "1:13 PM - The Joke Room (Continued)\n" +
@@ -939,7 +939,7 @@
 "Somewhere behind you, a whisper.\n" +
 "\"Identity isn’t found, Radhe. It’s assigned.\"\n" +
 "The lights cut.\n" +
-"Everything goes black."\n" +
+"Everything goes black.\n" +
 "________________________________________\n" +
 "🌀 Part 10: “Reboot Protocol”\n" +
 "\n" +
@@ -1067,7 +1067,7 @@
 "Don’t turn around.\n" +
 "\n" +
 "Because maybe...\n" +
-"you’re next."\n" +
+"you’re next.\n" +
 "________________________________________\n" +
 "🔥 Part 11 - “The Broadcast”\\n" +
 "🕒 3:05 PM - After the Epilogue\\n" +
@@ -1221,7 +1221,7 @@
 "\\n" +
 "A cold whisper follows:\\n" +
 "\\n" +
-"“Next... comes truth.”\\n"
+"\"Next... comes truth.\\n\"" +
 "________________________________________\\n" +
 "🧠 Part 12 – “The Final Face”\n" +
 "\n" +
