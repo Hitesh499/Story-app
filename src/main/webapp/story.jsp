@@ -1091,7 +1091,7 @@
 "One by one.\n" +
 "Leaving you in darkness.\n" +
 "A cold whisper follows:\n" +
-"\\\"Next... comes truth.\\\"\n" +
+"\\\"Next...comes truth.\\\"\n" +
 "________________________________________\n" +
 "🧠 Episode-12: The Final Face\n" +
 "\n" +
