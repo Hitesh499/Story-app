@@ -385,21 +385,21 @@
     "Too still.\n" +
     "Too cold.\n" +
     "Too… amused.\n" +
-    "\"Nice of you to come. I was beginning to think you weren’t brave anymore."\n" +
+    "\"Nice of you to come. I was beginning to think you weren’t brave anymore.\"\n" +
     "My voice.\n" +
     "But not my tone.\n" +
     "He walked around me. Casually.\n" +
-    "\"You see, I was the better one. But they didn’t pick me. Your parents did. They picked you.”\n" +
+    "\"You see, I was the better one. But they didn’t pick me. Your parents did. They picked you.\"\n" +
     "He smiled.\n" +
-    "\"So they threw me away."\n" +
+    "\"So they threw me away.\"\n" +
     "I gasped.\n" +
-    "\"You’re lying."\n" +
+    "\"You’re lying.\"\n" +
     "\"Oh? Then why is your birth certificate copy... torn in half? Why do your parents have only one baby photo?\"\n" +
     "He threw a folder at my feet.\n" +
-    "Inside — pictures. Ultrasound scans. Notes. Two heartbeats. Two names.\n" +
+    "Inside - pictures. Ultrasound scans. Notes. Two heartbeats. Two names.\n" +
     "Only one crossed out.\n" +
-    "\"Manav — kept.\"\n" +
-    "\"Mithya — gone.\"\n" +
+    "\"Manav - kept.\"\n" +
+    "\"Mithya - gone.\"\n" +
     "My head spun.\n" +
     "\"They left me in a shelter. Thought I’d die. But I didn’t. I learned things there. Learned to survive. To trick. To mimic. And now... I’ve come back."\n" +
     "He leaned closer, eyes burning.\n" +
@@ -427,8 +427,8 @@
     "A deep, painful, bitter laugh.\n" +
     "Then he showed me his phone.\n" +
     "A video.\n" +
-    "My parents — again.\n" +
-    "But this time, they were in my room. Tied. Gagged. With me — or him — standing behind them, holding a candle.\n" +
+    "My parents - again.\n" +
+    "But this time, they were in my room. Tied. Gagged. With me - or him - standing behind them, holding a candle.\n" +
     "\"One move from you. One call to the police. And your room becomes a grave."\n" +
     "Twist #2: The Choice\n" +
     "He placed two things in front of me.\n" +
@@ -436,7 +436,7 @@
     "\"The USB holds a video confession. Fake, of course. Looks like you confessing to hurting your parents.\"\n" +
     "\"The phone? One button press and they live. But I walk away with your identity.\"\n" +
     "He smiled wide.\n" +
-    "\"So? Do you want to be the hero… or keep pretending you’re the real one?\"\n" +
+    "\"So? Do you want to be the hero... or keep pretending you’re the real one?\"\n" +
     "What I Did\n" +
     "I stared at the USB. Then at the phone.\n" +
     "My hands were shaking.\n" +
@@ -444,7 +444,7 @@
     "Instead, I leaned forward.\n" +
     "And did the one thing he didn’t expect.\n" +
     "I laughed.\n" +
-    "A laugh so loud, so absurd, so unhinged… even he looked confused.\n" +
+    "A laugh so loud, so absurd, so unhinged... even he looked confused.\n" +
     "\"You okay, brother?\"\n" +
     "\"Yeah,"\ I said, still laughing. \"Because you forgot one thing.\"\n" +
     "He tilted his head.\n" +
@@ -455,9 +455,9 @@
     "Akshay had snuck in, through the skylight.\n" +
     "He had been filming everything. The voice. The face. The confession.\n" +
     "The cops? Already outside.\n" +
-    "I headbutted him before he could run — painful, but satisfying.\n" +
+    "I headbutted him before he could run - painful, but satisfying.\n" +
 "\n" +
-    "2:05 AM — Silence Returns\n" +
+    "2:05 AM - Silence Returns\n" +
     "He was taken.\n" +
     "Real name unknown.\n" +
     "But one thing is clear:\n" +
@@ -466,99 +466,99 @@
     "________________________________________\n" +
     "Episode 4. The Final Joke\n" +
 "\n" +
-"7:55 AM – The Joke That Shouldn’t Have Worked\n" +
+"7:55 AM - The Joke That Shouldn’t Have Worked\n" +
 "Monday morning. Special school gathering.\n" +
-"They’d called everyone back — said it was for \"mark sheet distribution.\" Some said it was to \"clear up rumors.\" Either way, I went. Regret followed.\n" +
-"On the projector screen behind the principal — something flickered.\n" +
+"They’d called everyone back - said it was for \"mark sheet distribution.\" Some said it was to \"clear up rumors.\" Either way, I went. Regret followed.\n" +
+"On the projector screen behind the principal - something flickered.\n" +
 "Then flashed.\n" +
 "Then a meme appeared.\n" +
 "Me, photoshopped in front of a grave, holding a bouquet that said:\n" +
-"“RIP Sir Ramesh — You’ll Not Be Missed.”\n" +
+"“RIP Sir Ramesh - You’ll Not Be Missed.”\n" +
 "The whole room burst into laughter.\n" +
 "Students couldn’t breathe.\n" +
-"Even the teachers chuckled… until they realized something was wrong.\n" +
-"Because —\n" +
+"Even the teachers chuckled... until they realized something was wrong.\n" +
+"Because -\n" +
 "Sir Ramesh, our Chemistry teacher, was actually missing.\n" +
 "\n" +
-"9:00 AM – The Investigation Begins\n" +
+"9:00 AM - The Investigation Begins\n" +
 "Everyone thought it was a prank.\n" +
 "Until police walked into the school.\n" +
 "Sir Ramesh hadn’t been home since Saturday.\n" +
 "And the meme?\n" +
 "It was sent from an account under my name.\n" +
-"IP traced — school computer lab.\n" +
-"Print logs — only one student had printed that meme yesterday.\n" +
+"IP traced - school computer lab.\n" +
+"Print logs - only one student had printed that meme yesterday.\n" +
 "Me.\n" +
 "But I never even came to school that weekend.\n" +
 "Or did I?\n" +
-"The security footage — corrupted.\n" +
+"The security footage - corrupted.\n" +
 "Only one frame visible:\n" +
 "Me.\n" +
 "Walking into school.\n" +
 "Smiling.\n" +
 "\n" +
-"10:12 AM – The Missing File\n" +
+"10:12 AM - The Missing File\n" +
 "Principal Mamta ma’am called me in.\n" +
 "She looked scared. Like truly scared.\n" +
-"“Radhe… are you doing all this? Or is this some game someone’s playing?”\n" +
+"\"Radhe... are you doing all this? Or is this some game someone’s playing?\"\n" +
 "I didn’t answer.\n" +
 "Because even I wasn’t sure anymore.\n" +
 "I walked out of the office.\n" +
 "And heard someone whisper behind me.\n" +
 "A voice I knew too well.\n" +
-"“The difference between a prank and a crime is one heartbeat.”\n" +
+"\"The difference between a prank and a crime is one heartbeat.\"\n" +
 "I turned. No one.\n" +
 "Just a sticky note on my locker.\n" +
 "It read:\n" +
 "“You laughed too soon.\n" +
 " He didn’t.”\n" +
 "\n" +
-"11:45 AM – The Discovery\n" +
+"11:45 AM - The Discovery\n" +
 "Police found Sir Ramesh’s ID card in the Chemistry lab sink.\n" +
 "Soaked in what looked like blood.\n" +
 "But it wasn’t blood.\n" +
 "It was ketchup.\n" +
 "Next to it?\n" +
 "A phone.\n" +
-"On it — a video.\n" +
-"Sir Ramesh… tied to a chair.\n" +
+"On it - a video.\n" +
+"Sir Ramesh... tied to a chair.\n" +
 "Begging.\n" +
 "And behind him?\n" +
 "Someone dancing in a clown costume.\n" +
 "Wearing my face.\n" +
 "\n" +
-"Twist #3 – The Laughing Tragedy\n" +
+"Twist #3 - The Laughing Tragedy\n" +
 "The video suddenly shifted to you.\n" +
 "Yes. You.\n" +
 "A close-up of your face. Whispering:\n" +
-"“This was supposed to be funny.\n" +
-" But now… everyone dies laughing.”\n" +
+"\"This was supposed to be funny.\n" +
+" But now... everyone dies laughing.”\n" +
 "\n" +
-"1:00 PM – School Lockdown\n" +
+"1:00 PM - School Lockdown\n" +
 "Police locked the gates.\n" +
 "Students were sent to the auditorium.\n" +
 "No one allowed out.\n" +
 "The lights flickered.\n" +
 "Screams echoed.\n" +
-"And on the main projector — the clown returned.\n" +
+"And on the main projector - the clown returned.\n" +
 "Juggling.\n" +
 "Laughing.\n" +
-"Then… pointing.\n" +
-"“Find him before 2:00 PM.\n" +
+"Then... pointing.\n" +
+"\"Find him before 2:00 PM.\n" +
 " Or you’ll all meet Sir Ramesh.\n" +
 " I suggest you RUN.”\n" +
 "Chaos.\n" +
 "Everyone stood.\n" +
 "Started searching.\n" +
 "Some looking for Sir Ramesh.\n" +
-"Some… looking for you.\n" +
+"Some... looking for you.\n" +
 "________________________________________\n" +
 "🪓 Episode 5: The Joke Room\n" +
 "\n" +
-"1:05 PM – The Trapdoor\n" +
+"1:05 PM - The Trapdoor\n" +
 "While the students scatter across classrooms and corridors screaming your name, you slip into the backstage of the auditorium.\n" +
 "You remembered a rumor from a janitor:\n" +
-"“There’s a trapdoor under the stage… from the days when this building was a freedom fighter safe house.”\n" +
+"\"There’s a trapdoor under the stage... from the days when this building was a freedom fighter safe house.\"\n" +
 "You pull back the carpet. Wooden planks.\n" +
 "You knock.\n" +
 "Hollow.\n" +
@@ -568,7 +568,7 @@
 "Each step creaks.\n" +
 "The deeper you go, the colder it gets.\n" +
 "\n" +
-"1:10 PM – The Underground\n" +
+"1:10 PM - The Underground\n" +
 "You reach a stone corridor.\n" +
 "Old walls.\n" +
 "Peeling bricks.\n" +
@@ -576,38 +576,38 @@
 "Some names.\n" +
 "Some symbols.\n" +
 "And one thing etched in blood red:\n" +
-"“THE ROOM THAT LAUGHS BACK.”\n" +
+"\"THE ROOM THAT LAUGHS BACK.\"\n" +
 "You push forward.\n" +
 "A door. Metal. Rusted.\n" +
 "It’s half open.\n" +
 "You enter.\n" +
 "\n" +
-"1:13 PM – The Joke Room\n" +
+"1:13 PM - The Joke Room\n" +
 "It’s not a joke.\n" +
 "It’s a nightmare.\n" +
 "Mannequins wearing school uniforms.\n" +
 "Clown wigs on every head.\n" +
-"The walls painted in red lipstick — huge smiles drawn crudely.\n" +
-"At the center — a chair.\n" +
+"The walls painted in red lipstick - huge smiles drawn crudely.\n" +
+"At the center - a chair.\n" +
 "Sir Ramesh.\n" +
 "Tied. Eyes open. Gagged. Alive.\n" +
 "You rush forward. Untie the gag.\n" +
-"“D-Don’t… Don’t trust—”\n" +
+"\"D-Don’t... Don’t trust-\"\n" +
 "You hear a click behind you.\n" +
 "A TV turns on.\n" +
 "The same clown. But not dancing.\n" +
-"Just… sitting.\n" +
+"Just... sitting.\n" +
 "\"You came. Good. This is the part where you laugh.\"\n" +
 "The clown stands.\n" +
 "And removes the mask.\n" +
 "It’s not Mithya.\n" +
 "It’s not your twin.\n" +
 "It’s a student.\n" +
-"Your classmate — Aryan Desai.\n" +
+"Your classmate - Aryan Desai.\n" +
 "The class clown. The one who always joked about bombs in the lab. The one who once lit the staffroom curtain on fire as a prank.\n" +
-"“Radhe took the credit for being clever. But I was always the funniest. The chaos king.”\n" +
+"\"Radhe took the credit for being clever. But I was always the funniest. The chaos king.\"\n" +
 "He smiles at the camera.\n" +
-"“So I joined Mithya. Became his puppet. Or… maybe he became mine.”\n" +
+"\"So I joined Mithya. Became his puppet. Or...maybe he became mine.\"\n" +
 "\n" +
 "Suddenly, the mannequins move.\n" +
 "They're not mannequins.\n" +
@@ -616,23 +616,23 @@
 "You back away.\n" +
 "Sir Ramesh screams something. You can't hear.\n" +
 "\n" +
-"Twist #4 – The Explosion Gag\n" +
+"Twist #4 - The Explosion Gag\n" +
 "A countdown starts on the screen.\n" +
 "00:01:30\n" +
-"A box in the corner opens. Inside — a birthday cake. With candles. And wires.\n" +
+"A box in the corner opens. Inside - a birthday cake. With candles. And wires.\n" +
 "The final joke is a bomb.\n" +
-"“Happy birthday, Radhe,” Aryan says.\n" +
+"\"Happy birthday, Radhe,"\" Aryan says.\n" +
 "“Blow the candles, or everything goes up.”\n" +
 "________________________________________\n" +
 "🪞 Episode 6: Laughter Before Silence\n" +
-"1:13 PM – The Joke Room (Continued)\n" +
+"1:13 PM - The Joke Room (Continued)\n" +
 "The countdown on the screen pulses.\n" +
 "00:01:30\n" +
 "00:01:29\n" +
 "00:01:28\n" +
 "Aryan tilts his head, watching you with wide, unblinking eyes.\n" +
 "Sir Ramesh thrashes in the chair beside the cake — eyes bulging, muffled screams pouring from his gag.\n" +
-"The students — the ones you thought were mannequins — twitch and groan. One girl is crying silently. Another’s head hangs limp.\n" +
+"The students - the ones you thought were mannequins — twitch and groan. One girl is crying silently. Another’s head hangs limp.\n" +
 "The room is spinning. No exits. No windows. Only the TV, the tied bodies, and that cursed cake.\n" +
 "Candles flicker atop it like a joke from hell.\n" +
 "00:01:12\n" +
@@ -641,12 +641,12 @@
 "\"The blue wire is usually the trigger. Never mess with the blue.\"\n" +
 "But this is Aryan’s joke. That means everything is backward.\n" +
 "00:00:48\n" +
-"Your hands tremble. You reach for the blue wire — then hesitate.\n" +
+"Your hands tremble. You reach for the blue wire - then hesitate.\n" +
 "Aryan’s voice echoes from the TV:\n" +
 "\"Funny, isn’t it? How everyone thinks there's always a right answer. A correct wire. A correct Radhe.\"\n" +
 "00:00:32\n" +
 "You yank the gag off Sir Ramesh.\n" +
-"He gasps: \"They’re real. The kids—some of them are real.\"\n" +
+"He gasps: \"They’re real. The kids-some of them are real.\"\n" +
 "00:00:25\n" +
 "You glance around. One girl looks too still. Too pale.\n" +
 "She’s not acting.\n" +
@@ -655,11 +655,11 @@
 "You grip the red wire.\n" +
 "Sir Ramesh whispers, \"Do it. End it.\"\n" +
 "00:00:10\n" +
-"You close your eyes—\n" +
-"—and cut the red wire.\n" +
+"You close your eyes-\n" +
+"-and cut the red wire.\n" +
 "Silence.\n" +
 "Nothing happens.\n" +
-"Then…\n" +
+"Then...\n" +
 "PSSSSSHHHHH\n" +
 "The cake explodes in a blast of glitter and confetti.\n" +
 "A speaker crackles.\n" +
@@ -668,12 +668,12 @@
 "Then you see it:\n" +
 "A side panel opens.\n" +
 "Aryan is gone.\n" +
-"The tied-up girl — the one you noticed earlier — isn’t breathing.\n" +
+"The tied-up girl - the one you noticed earlier - isn’t breathing.\n" +
 "And the door behind you creaks open on its own.\n" +
 "You step out into the dark corridor.\n" +
 "But something is wrong.\n" +
 "Far away, you hear sirens. A teacher’s voice yelling your name.\n" +
-"You reach for your phone — it buzzes.\n" +
+"You reach for your phone - it buzzes.\n" +
 "New Video Uploaded: \"Radhe Laughs As Bomb Ticks Down\"\n" +
 "The thumbnail shows you beside the cake, mouth slightly open. But you didn’t laugh.\n" +
 "Then you hear it.\n" +
@@ -682,7 +682,7 @@
 "But it’s not yours.\n" +
 "It's Mithya.\n" +
 "\n" +
-"Ending: “The Price of the Punchline”\n" +
+"Ending: \"The Price of the Punchline\"\n" +
 "By the time you emerge from the underground, the school is in chaos.\n" +
 "Aryan is gone.\n" +
 "Sir Ramesh is hospitalized — but alive.\n" +
@@ -691,19 +691,19 @@
 "You’re being blamed.\n" +
 "You were caught on camera.\n" +
 "You were the last number dialed from Sir Ramesh’s phone.\n" +
-"Your voice — no, Mithya’s laugh in your voice — is echoing across the internet.\n" +
+"Your voice - no, Mithya’s laugh in your voice - is echoing across the internet.\n" +
 "At home.\n" +
 "At school.\n" +
 "Online.\n" +
 "You’ve been replaced.\n" +
 "By a joke that never ends.\n" +
-"And now… you are the punchline\n" +
+"And now... you are the punchline\n" +
 "________________________________________\n" +
 "🏛️ Part 7: “The Institution”\n" +
 "\n" +
-"1:33 PM – 3 Days Later\n" +
+"1:33 PM - 3 Days Later\n" +
 "You’re not at school anymore.\n" +
-"You’re at Srishti Institute for Juvenile Evaluation — a sterile building wrapped in white paint and barbed logic.\n" +
+"You’re at Srishti Institute for Juvenile Evaluation - a sterile building wrapped in white paint and barbed logic.\n" +
 "The gates are tall. The nurses don’t blink.\n" +
 "And every door locks from the outside.\n" +
 "\n" +
@@ -739,7 +739,7 @@
 "Your breath shortens.\n" +
 "\n" +
 "The doctor continues.\n" +
-"\"And yet… you keep saying it wasn’t you. That someone else is wearing your voice. Editing your videos. Creating… false versions of you.\"\n" +
+"\"And yet... you keep saying it wasn’t you. That someone else is wearing your voice. Editing your videos. Creating... false versions of you.\"\n" +
 "\n" +
 "He leans closer, voice gentle.\n" +
 "\"So let me ask again. Who is Mithya?\"\n" +
@@ -753,10 +753,10 @@
 "\n" +
 "You turn.\n" +
 "No one’s there.\n" +
-"But in the mirror — for just a second — your reflection doesn’t match your expression.\n" +
+"But in the mirror - for just a second - your reflection doesn’t match your expression.\n" +
 "It smiles wider.\n" +
 "\n" +
-"3:12 PM – Observation Notes\n" +
+"3:12 PM - Observation Notes\n" +
 "Subject: Radhe Sankar\n" +
 "Behavior: Calm, articulate, but with persistent delusions.\n" +
 "Believes in an external entity named “Mithya.” Claims he’s being impersonated.\n" +
@@ -774,7 +774,7 @@
 "But not your walk.\n" +
 "________________________________________\n" +
 "🎭 Part 8: “The Puppet Room”\n" +
-"2:05 AM – Srishti Institute, Room B-13 (Previously Sealed)\n" +
+"2:05 AM - Srishti Institute, Room B-13 (Previously Sealed)\n" +
 "There should be no one awake.\n" +
 "No one authorized.\n" +
 "But the door to Room B-13 creaks open. Slowly. By itself.\n" +
@@ -789,25 +789,25 @@
 "You open it.\n" +
 " It plays audio.\n" +
 " The voice? Aryan’s.\n" +
-"\"Radhe… still playing the straight man in this comedy? You forgot rule one of survival: Never take your mask off.\"\n" +
+"\"Radhe... still playing the straight man in this comedy? You forgot rule one of survival: Never take your mask off.\"\n" +
 "You drop the card.\n" +
 "Behind you, a clicking sound.\n" +
 "The mirror.\n" +
 "It cracks again, deeper.\n" +
-"And now your reflection… isn't alone.\n" +
+"And now your reflection... isn't alone.\n" +
 "A second version of you stands behind it.\n" +
 " Face painted.\n" +
 " Eyes wider.\n" +
 " Smiling with blood in its teeth.\n" +
-"And then—\n" +
+"And then-\n" +
 "The mirror shatters.\n" +
 "But instead of glass, hands crawl out.\n" +
 "Pale hands. Painted nails. Strings tied to every joint.\n" +
 "They grab your wrist.\n" +
-"You scream—\n" +
+"You scream-\n" +
 " but you're pulled into the mirror.\n" +
 "\n" +
-"2:06 AM – Unknown Location\n" +
+"2:06 AM - Unknown Location\n" +
 "You land on tile. Dusty. Cold.\n" +
 "You’re no longer in the Institute.\n" +
 "You're underground again.\n" +
@@ -824,7 +824,7 @@
 " Some twitch.\n" +
 "At the center:\n" +
 " A throne made of desk chairs and exam papers.\n" +
-"And sitting on it — a person in a jester’s mask, hoodie, and blood-stained gloves.\n" +
+"And sitting on it - a person in a jester’s mask, hoodie, and blood-stained gloves.\n" +
 "You squint.\n" +
 "It’s Aryan.\n" +
 "\"Told you I’d leave school with a bang,\" he says. \"Too bad they found my double first.\"\n" +
@@ -837,7 +837,7 @@
 "\"You’re the final puppet. The one who never realized he had strings.\"\n" +
 "Mannequins lurch.\n" +
 " The room begins spinning.\n" +
-"You try to run—\n" +
+"You try to run-\n" +
 " but your limbs don’t respond.\n" +
 "You look down.\n" +
 "Strings. Attached to your arms. Your legs.\n" +
@@ -845,13 +845,13 @@
 "You stammer.\n" +
 "\"W-What joke?\"\n" +
 "The projector screen turns on behind him.\n" +
-"Footage of you—laughing.\n" +
+"Footage of you-laughing.\n" +
 " Setting a fire.\n" +
 " Recording the meme.\n" +
 "But you never did any of that.\n" +
-"Except… in this video… you’re smiling.\n" +
+"Except... in this video... you’re smiling.\n" +
 "\n" +
-" 00:00 – The Punchline\n" +
+" 00:00 - The Punchline\n" +
 "Explosion.\n" +
 "But not fire.\n" +
 "Light.\n" +
@@ -866,9 +866,9 @@
 " You were always the joke.\"\n" +
 "________________________________________\n" +
 "🎭 Part 9: “The Identity Game”\n" +
-"2:45 AM – Srishti Institute, Courtyard\n" +
+"2:45 AM - Srishti Institute, Courtyard\n" +
 "You bolt from Room B-13, breath sharp, pupils dilated.\n" +
-"The corridors look… older now.\n" +
+"The corridors look... older now.\n" +
 " Dust on windows.\n" +
 " Stickers from a different year.\n" +
 "You check your phone.\n" +
@@ -882,32 +882,32 @@
 "Then flickers.\n" +
 "\"Welcome, Radhe. Or whoever you really are.\"\n" +
 "\n" +
-"2:48 AM – Admin Building, Basement\n" +
+"2:48 AM - Admin Building, Basement\n" +
 "You don’t remember running there.\n" +
 " But your feet move on instinct.\n" +
-"Door 13B — usually locked — swings open before you touch it.\n" +
+"Door 13B - usually locked - swings open before you touch it.\n" +
 "Inside:\n" +
 " Boxes. Old files. Photos.\n" +
 "You sift through them.\n" +
 "One envelope says:\n" +
-" “MISSING STUDENTS – UNSOLVED (2017–2022)”\n" +
+"\"MISSING STUDENTS - UNSOLVED (2017-2022)\"\n" +
 "You see Aryan’s name.\n" +
-"You see… your own.\n" +
+"You see... your own.\n" +
 "Radhe Sankar. Reported missing.\n" +
 " Dated: Two years ago.\n" +
 "Next page:\n" +
-" “Subject was believed to be last seen near auditorium trapdoor. No remains found.”\n" +
+"\"Subject was believed to be last seen near auditorium trapdoor. No remains found.\"\n" +
 "You drop the file.\n" +
 "A VHS tape falls out of the folder.\n" +
 "Label:\n" +
-"“The Original Joke”\n" +
+"\"The Original Joke\"\n" +
 "\n" +
-"2:52 AM – Viewing Room\n" +
+"2:52 AM - Viewing Room\n" +
 "You find an old player. Plug it in.\n" +
 "The footage begins:\n" +
 "A grainy hallway.\n" +
 " Laughter on loop.\n" +
-"Then — a boy.\n" +
+"Then - a boy.\n" +
 " Wearing your clothes.\n" +
 " Walking into the trapdoor under the stage.\n" +
 "Camera cuts.\n" +
@@ -916,14 +916,14 @@
 " Not Aryan.\n" +
 " Not you.\n" +
 "The voice says:\n" +
-"“Radhe was the test. The prototype. The first audience.”\n" +
-"“But the mirror cracked… and something stepped out.”\n" +
+"\"Radhe was the test. The prototype. The first audience.\"\n" +
+"\"But the mirror cracked... and something stepped out.\"\n" +
 "The boy’s face melts in static.\n" +
 "Then the screen turns black.\n" +
 "A final message appears:\n" +
-"“If you are watching this… you are already version 2.”\n" +
+"\"If you are watching this... you are already version 2.\"\n" +
 "\n" +
-"3:00 AM – Faculty Hall\n" +
+"3:00 AM - Faculty Hall\n" +
 "You stumble into the empty hall, gasping.\n" +
 "Reflections follow you.\n" +
 " Every window shows a slightly different version of your face.\n" +
@@ -932,21 +932,21 @@
 "You pick it up.\n" +
 "But it doesn’t say Radhe Sankar anymore.\n" +
 "It says:\n" +
-"“SUBJECT: MITHYA-02”\n" +
+"\"SUBJECT: MITHYA-02\"\n" +
 " STATUS: AWAITING REBOOT\n" +
 " ASSIGNED ROLE: VILLAIN OR HERO (UNLOCK AT PART 10)\n" +
 "You stare.\n" +
 "Somewhere behind you, a whisper.\n" +
-"“Identity isn’t found, Radhe. It’s assigned.”\n" +
+"\"Identity isn’t found, Radhe. It’s assigned.\"\n" +
 "The lights cut.\n" +
 "Everything goes black."\n" +
 "________________________________________\n" +
 "🌀 Part 10: “Reboot Protocol”\n" +
 "\n" +
-"3:15 AM – Central Courtyard\n" +
+"3:15 AM - Central Courtyard\n" +
 "\n" +
 "Thunder rumbles.\n" +
-"Rain starts to fall in slow motion — like time itself is breaking.\n" +
+"Rain starts to fall in slow motion - like time itself is breaking.\n" +
 "\n" +
 "You step into the courtyard, barefoot, soaked.\n" +
 "Holding the ID card that now claims you’re “MITHYA-02”.\n" +
@@ -956,9 +956,9 @@
 "From the shadows, a figure appears.\n" +
 "Aryan. Burnt jacket. Face cracked with ash and rage.\n" +
 "\n" +
-"“I survived the blast. Mithya wanted me to watch you reboot.”\n" +
+"\"I survived the blast. Mithya wanted me to watch you reboot.\"\n" +
 "\n" +
-"“He said, ‘Let the prototype see his own glitch.’”\n" +
+"\"He said, ‘Let the prototype see his own glitch.’\"\n" +
 "\n" +
 "He throws a mirror on the ground between you.\n" +
 "\n" +
@@ -977,13 +977,13 @@
 "\n" +
 "A ghost.\n" +
 "\n" +
-"3:17 AM – The Final Projection\n" +
+"3:17 AM - The Final Projection\n" +
 "The projector on the old building flickers on by itself.\n" +
 "\n" +
 "Footage plays.\n" +
 "Sir Ramesh. Principal. Your parents. Students.\n" +
 "\n" +
-"All of them… watching someone tied to a chair.\n" +
+"All of them... watching someone tied to a chair.\n" +
 "Not Aryan.\n" +
 "Not you.\n" +
 "\n" +
@@ -997,18 +997,18 @@
 "\n" +
 "Then text appears:\n" +
 "\n" +
-"“Too many stories. Too many selves. Time to end the joke.”\n" +
+"\"Too many stories. Too many selves. Time to end the joke.\"\n" +
 "\n" +
 "A progress bar:\n" +
 "\n" +
 "REBOOT PROTOCOL: 89%\n" +
 "\n" +
-"3:20 AM – The Choice You Never Made\n" +
+"3:20 AM - The Choice You Never Made\n" +
 "A voice echoes across the courtyard.\n" +
 "\n" +
-"“Identity is a weapon. Or a wound.”\n" +
+"\"Identity is a weapon. Or a wound.\"\n" +
 "\n" +
-"“You’ve worn many masks. But only one can survive.”\n" +
+"\"You’ve worn many masks. But only one can survive.\"\n" +
 "\n" +
 "Then, in front of you:\n" +
 "Two chairs.\n" +
@@ -1060,22 +1060,22 @@
 "\n" +
 "But the rumor persists:\n" +
 "\n" +
-"“Room B-13 laughs back.”\n" +
+"\"Room B-13 laughs back.\"\n" +
 "\n" +
 "And if you ever hear footsteps behind you after midnight?\n" +
 "\n" +
 "Don’t turn around.\n" +
 "\n" +
-"Because maybe…\n" +
+"Because maybe...\n" +
 "you’re next."\n" +
 "________________________________________\n" +
-"🔥 Part 11 – “The Broadcast”\\n" +
-"🕒 3:05 PM — After the Epilogue\\n" +
-"“Room B-13 laughs back.”\\n" +
-"And if you ever hear footsteps behind you after midnight…\\n" +
+"🔥 Part 11 - “The Broadcast”\\n" +
+"🕒 3:05 PM - After the Epilogue\\n" +
+"\"Room B-13 laughs back.\"\n" +
+"And if you ever hear footsteps behind you after midnight...\"\n" +
 "Don’t turn around.\\n" +
 "\\n" +
-"Because maybe…\\n" +
+"Because maybe...\\n" +
 "you’re next.\\n" +
 "\\n" +
 "You blink.\\n" +
@@ -1084,23 +1084,23 @@
 "\\n" +
 "The smoke has cleared.\\n" +
 "The auditorium is silent.\\n" +
-"The students are safe — or gone. You’re not sure.\\n" +
+"The students are safe - or gone. You’re not sure.\\n" +
 "Aryan disappeared into the chaos. Sir Ramesh was dragged out, barely conscious.\\n" +
 "\\n" +
 "You wander back through the broken halls. Blood on your shirt. Dust in your lungs. And a whisper inside your head:\\n" +
 "\\n" +
-"“Radhe… are you even real?”\\n" +
+"\"Radhe... are you even real?\"\\n" +
 "\\n" +
-"That’s when you remember the map Aryan passed to you — slipped in your pocket during the fire escape. A crudely drawn sketch with one label scratched in red ink:\\n" +
+"That’s when you remember the map Aryan passed to you - slipped in your pocket during the fire escape. A crudely drawn sketch with one label scratched in red ink:\\n" +
 "\\n" +
-"“FORGET ROOM B-13. FIND THE SIGNAL.”\\n" +
+"\"FORGET ROOM B-13. FIND THE SIGNAL.\"\\n" +
 "\\n" +
 "Your fingers shake as you unfold the paper. A hallway behind the Chemistry Lab.\\n" +
 "A rusted door no one’s ever opened.\\n" +
 "\\n" +
 "You move.\\n" +
 "\\n" +
-"🕒 3:07 PM – The Hidden Server Room, Block B\\n" +
+"🕒 3:07 PM - The Hidden Server Room, Block B\\n" +
 "You descend stone steps behind the chem lab. It smells like ozone and mold. The door groans open into a forgotten sub-basement.\\n" +
 "\\n" +
 "Your breath catches.\\n" +
@@ -1211,7 +1211,7 @@
 "“You were never meant to be original, Radhe.\\n" +
 "You were meant to survive the joke.”\\n" +
 "\\n" +
-"Suddenly—\\n" +
+"Suddenly-\\n" +
 "\\n" +
 "The monitors shut off.\\n" +
 "\\n" +
@@ -1221,8 +1221,8 @@
 "\\n" +
 "A cold whisper follows:\\n" +
 "\\n" +
-"“Next… comes truth.”\\n"
-"________________________________________\n" +
+"“Next... comes truth.”\\n"
+"________________________________________\\n" +
 "🧠 Part 12 – “The Final Face”\n" +
 "\n" +
 "3:17 PM – The Shutdown Room\n" +
@@ -1347,17 +1347,17 @@
 "Not a version.\n" +
 "Not a joke.\n" +
 "\n" +
-"Epilogue – The Joke Ends\n" +
+"Epilogue - The Joke Ends\n" +
 "Some stories were never meant to entertain.\n" +
 "Some were built to heal.\n" +
 "Mithya was never the villain.\n" +
 "It was the name of the therapy system built to reconstruct fractured identities.\n" +
-"The “story app”?\n" +
-"It was how your mind rebuilt your memory — one scene at a time.\n" +
+"The \"story app\"?\n" +
+"It was how your mind rebuilt your memory - one scene at a time.\n" +
 "And now?\n" +
 "You’re ready to move forward.\n" +
-"Because the final face…\n" +
-"…was your own.\n" +
+"Because the final face...\n" +
+"…was your own.\n";
 
     String content = stories.get(title);
 %>
