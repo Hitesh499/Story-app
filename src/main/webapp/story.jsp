@@ -1357,7 +1357,8 @@
 "And now?\n" +
 "You’re ready to move forward.\n" +
 "Because the final face...\n" +
-"...was your own.\n";
+"...was your own.\n"
+    );
 
     String content = stories.get(title);
 %>
